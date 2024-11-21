@@ -12,7 +12,7 @@ Library: C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x
 --linker-options=PdbAltPath="Mallow The pixel Bandit_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Library\Burst
 --output=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -32,7 +32,7 @@ Library: C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x
 --linker-options=PdbAltPath="Mallow The pixel Bandit_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Library\Burst
 --output=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -50,7 +50,7 @@ Library: C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x
 --linker-options=PdbAltPath="Mallow The pixel Bandit_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Library\Burst
 --output=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
@@ -102,7 +102,7 @@ Library: C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x
 --linker-options=PdbAltPath="Mallow The pixel Bandit_Data/Plugins/x86_64/lib_burst_generated.pdb"
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\Burst
---key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.52f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport
 --decode-folder=C:\Users\alexa\Mallow--The-pixel-Bandit\Library\Burst
 --output=C:\Users\alexa\Mallow--The-pixel-Bandit\Temp\BurstOutput\Data\Plugins\x86_64\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
