@@ -775,6 +775,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* ReadObjectInfo_GetMemberInfo_m250EC6E7A2A7A
 IL2CPP_EXTERN_C const RuntimeMethod* ReadObjectInfo_GetMemberType_m5A14CFD52C1B7814B22E428EF3E3C040C8EC2F3B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadObjectInfo_GetMemberTypes_mC4AECF06C2EBBE0DF73AAA21BFB62E739357F1E8_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ReadObjectInfo_GetType_m6F4E23ACE7233A14CD675884181D3EDBE43C4A63_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SafeSerializationEventArgs__ctor_mA7340CFE17889B43A78AB12218D87ECF56671D32_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SerializationHeaderRecord_Read_m3EDC858119645D2BCA708BAA1B583FF17902FF43_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SerializationInfoEnumerator_get_Current_m820863174CF73089751ACC36BC34DD3188A1929B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* SerializationInfoEnumerator_get_Name_m58B6D682B6C829258730C1E952E9099ACDDAE734_RuntimeMethod_var;
@@ -13896,6 +13897,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SafeSerializationEventArgs_get
 	{
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = __this->___m_serializedStates;
 		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeSerializationEventArgs__ctor_mA7340CFE17889B43A78AB12218D87ECF56671D32 (SafeSerializationEventArgs_t321DE8654655D1DED43B42CA066C1511AC7B84ED* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SafeSerializationEventArgs__ctor_mA7340CFE17889B43A78AB12218D87ECF56671D32_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		il2cpp_codegen_raise_profile_exception(SafeSerializationEventArgs__ctor_mA7340CFE17889B43A78AB12218D87ECF56671D32_RuntimeMethod_var);
+		return;
 	}
 }
 #ifdef __clang__
