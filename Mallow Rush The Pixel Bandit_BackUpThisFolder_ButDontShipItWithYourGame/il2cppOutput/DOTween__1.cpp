@@ -11888,10 +11888,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UintPlugin_EvaluateAndApply_m1F772D5D22A
 		bool L_4 = L_3->___isComplete;
 		if (L_4)
 		{
-			G_B3_0 = ((int64_t)(uint64_t)L_2);
+			G_B3_0 = ((int64_t)(uint64_t)((uint32_t)L_2));
 			goto IL_001c;
 		}
-		G_B2_0 = ((int64_t)(uint64_t)L_2);
+		G_B2_0 = ((int64_t)(uint64_t)((uint32_t)L_2));
 	}
 	{
 		Tween_t8CB06EBC48A5B6F5065C490E4F4909C18CE7983C* L_5 = ___1_t;
@@ -11963,10 +11963,10 @@ IL_003e:
 		int32_t L_22 = L_21->___loopType;
 		if ((((int32_t)L_22) == ((int32_t)2)))
 		{
-			G_B11_0 = ((int64_t)(uint64_t)L_20);
+			G_B11_0 = ((int64_t)(uint64_t)((uint32_t)L_20));
 			goto IL_0063;
 		}
-		G_B10_0 = ((int64_t)(uint64_t)L_20);
+		G_B10_0 = ((int64_t)(uint64_t)((uint32_t)L_20));
 	}
 	{
 		G_B12_0 = 1;

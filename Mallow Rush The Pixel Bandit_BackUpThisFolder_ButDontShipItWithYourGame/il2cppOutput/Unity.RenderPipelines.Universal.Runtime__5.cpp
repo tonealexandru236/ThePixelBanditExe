@@ -27945,7 +27945,7 @@ IL_0006:
 	{
 		(&V_0)->___doubleValue = (0.0);
 		uint32_t L_1 = ___0_x;
-		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_1)));
+		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)((uint32_t)L_1))));
 		double* L_2 = (double*)(&(&V_0)->___doubleValue);
 		double* L_3 = L_2;
 		double L_4 = *((double*)L_3);

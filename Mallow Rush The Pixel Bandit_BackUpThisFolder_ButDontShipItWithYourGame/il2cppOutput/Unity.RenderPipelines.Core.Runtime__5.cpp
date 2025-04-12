@@ -8521,7 +8521,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TileLayoutUtils_TryLayoutByTiles_mF9F8DA
 		int32_t L_0;
 		L_0 = RectInt_get_width_m6B7B2FB764EAE83B7F63E7F77FA33973606761A7_inline((&___0_src), NULL);
 		uint32_t L_1 = ___1_tileSize;
-		if ((((int64_t)((int64_t)L_0)) < ((int64_t)((int64_t)(uint64_t)L_1))))
+		if ((((int64_t)((int64_t)L_0)) < ((int64_t)((int64_t)(uint64_t)((uint32_t)L_1)))))
 		{
 			goto IL_0018;
 		}
@@ -8530,7 +8530,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TileLayoutUtils_TryLayoutByTiles_mF9F8DA
 		int32_t L_2;
 		L_2 = RectInt_get_height_mE25FB938714942D7A3BA0B3C21BC5CB913D5709C_inline((&___0_src), NULL);
 		uint32_t L_3 = ___1_tileSize;
-		if ((((int64_t)((int64_t)L_2)) >= ((int64_t)((int64_t)(uint64_t)L_3))))
+		if ((((int64_t)((int64_t)L_2)) >= ((int64_t)((int64_t)(uint64_t)((uint32_t)L_3)))))
 		{
 			goto IL_0058;
 		}
@@ -8653,7 +8653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TileLayoutUtils_TryLayoutByRow_mB65FDC56
 		int32_t L_0;
 		L_0 = RectInt_get_height_mE25FB938714942D7A3BA0B3C21BC5CB913D5709C_inline((&___0_src), NULL);
 		uint32_t L_1 = ___1_tileSize;
-		if ((((int64_t)((int64_t)L_0)) >= ((int64_t)((int64_t)(uint64_t)L_1))))
+		if ((((int64_t)((int64_t)L_0)) >= ((int64_t)((int64_t)(uint64_t)((uint32_t)L_1)))))
 		{
 			goto IL_002c;
 		}
@@ -8724,7 +8724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TileLayoutUtils_TryLayoutByCol_m4A2C09CF
 		int32_t L_0;
 		L_0 = RectInt_get_width_m6B7B2FB764EAE83B7F63E7F77FA33973606761A7_inline((&___0_src), NULL);
 		uint32_t L_1 = ___1_tileSize;
-		if ((((int64_t)((int64_t)L_0)) >= ((int64_t)((int64_t)(uint64_t)L_1))))
+		if ((((int64_t)((int64_t)L_0)) >= ((int64_t)((int64_t)(uint64_t)((uint32_t)L_1)))))
 		{
 			goto IL_002c;
 		}
@@ -13344,7 +13344,7 @@ IL_0021:
 		Type_t* L_7 = ___0_type;
 		NullCheck(L_7);
 		Type_t* L_8;
-		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(107, L_7);
+		L_8 = VirtualFuncInvoker0< Type_t* >::Invoke(106, L_7);
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		bool L_9;
 		L_9 = Type_op_Inequality_m83209C7BB3C05DFBEA3B6199B0BEFE8037301172(L_8, (Type_t*)NULL, NULL);
@@ -13357,7 +13357,7 @@ IL_0021:
 		Type_t* L_10 = ___0_type;
 		NullCheck(L_10);
 		Type_t* L_11;
-		L_11 = VirtualFuncInvoker0< Type_t* >::Invoke(107, L_10);
+		L_11 = VirtualFuncInvoker0< Type_t* >::Invoke(106, L_10);
 		bool L_12;
 		L_12 = VolumeParameter_IsObjectParameter_m76173F664C245D5F956B1F00535CF4CBFA422085(L_11, NULL);
 		return L_12;
@@ -25223,7 +25223,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebugUIHandlerUIntField_ChangeValue_m3CC
 		NullCheck(L_0);
 		uint32_t L_1;
 		L_1 = Field_1_GetValue_m5AB711420D2537F66BA9190AF59840BD2D284F0E(L_0, Field_1_GetValue_m5AB711420D2537F66BA9190AF59840BD2D284F0E_RuntimeMethod_var);
-		V_0 = ((int64_t)(uint64_t)L_1);
+		V_0 = ((int64_t)(uint64_t)((uint32_t)L_1));
 		int64_t L_2 = V_0;
 		if (L_2)
 		{

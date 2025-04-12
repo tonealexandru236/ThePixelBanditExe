@@ -23447,7 +23447,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int8_t Convert_ToSByte_m27B31300CFB128D3506BA
 	}
 	{
 		uint32_t L_0 = ___0_value;
-		if ((((int64_t)((int64_t)(uint64_t)L_0)) <= ((int64_t)((int64_t)((int32_t)127)))))
+		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_0))) <= ((int64_t)((int64_t)((int32_t)127)))))
 		{
 			goto IL_000c;
 		}
@@ -24130,7 +24130,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int16_t Convert_ToInt16_mF808171F101EEF7C5B3C
 	}
 	{
 		uint32_t L_0 = ___0_value;
-		if ((((int64_t)((int64_t)(uint64_t)L_0)) <= ((int64_t)((int64_t)((int32_t)32767)))))
+		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_0))) <= ((int64_t)((int64_t)((int32_t)32767)))))
 		{
 			goto IL_000f;
 		}
@@ -25390,7 +25390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_m664E0209A25CA5E794A3
 {
 	{
 		Il2CppChar L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_mA8B6FD1F766AA8A14DD50D27D120E31D2F6FF498 (int8_t ___0_value, const RuntimeMethod* method) 
@@ -25404,7 +25404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_mDF5F001FD9BCF9A16158
 {
 	{
 		uint8_t L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_m32348A81492FC998FD6DFE675C337EC0359CD8E0 (int16_t ___0_value, const RuntimeMethod* method) 
@@ -25418,7 +25418,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_m222D9D3C149B456BBCA9
 {
 	{
 		uint16_t L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_m96FAEEA01C1BA082BB3925CC2099C0591DBF632A (int32_t ___0_value, const RuntimeMethod* method) 
@@ -25432,7 +25432,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_mDBCA1C09FD81078B6BEC
 {
 	{
 		uint32_t L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Convert_ToInt64_mB147063CED08EF20CA5C42A6EA0E0F8F24AA1FBC (uint64_t ___0_value, const RuntimeMethod* method) 
@@ -25644,7 +25644,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_mD35B9CFCB4C188FCD8
 {
 	{
 		Il2CppChar L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_m2613DCBC3B80AC7F15AB4DBEA4A5D05AB23E0D88 (int8_t ___0_value, const RuntimeMethod* method) 
@@ -25677,7 +25677,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_mEE1402515F6D94369B
 {
 	{
 		uint8_t L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_mBC2F335F529042F26FEE842CC38966FBDD45C007 (int16_t ___0_value, const RuntimeMethod* method) 
@@ -25710,7 +25710,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_m6020590A3AB08E5DC8
 {
 	{
 		uint16_t L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_m53C3A45C87A06F25957619222B04EABFD214373C (int32_t ___0_value, const RuntimeMethod* method) 
@@ -25743,7 +25743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_m91C774E0D3AA8368D1
 {
 	{
 		uint32_t L_0 = ___0_value;
-		return ((int64_t)(uint64_t)L_0);
+		return ((int64_t)(uint64_t)((uint32_t)L_0));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Convert_ToUInt64_mDC842A03AB192EF47059253789BE224E41200D77 (int64_t ___0_value, const RuntimeMethod* method) 

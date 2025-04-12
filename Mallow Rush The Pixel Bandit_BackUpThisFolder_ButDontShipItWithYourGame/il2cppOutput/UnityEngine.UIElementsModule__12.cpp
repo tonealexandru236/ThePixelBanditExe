@@ -13398,7 +13398,7 @@ IL_023e:
 		NullCheck(L_113);
 		uint32_t L_114;
 		L_114 = UIRenderDevice_get_maxVerticesPerPage_mFFA8429A499398EFF83CFBD5A786D3BFFF430C49_inline(L_113, NULL);
-		V_21 = (bool)((((int64_t)((int64_t)L_112)) > ((int64_t)((int64_t)(uint64_t)L_114)))? 1 : 0);
+		V_21 = (bool)((((int64_t)((int64_t)L_112)) > ((int64_t)((int64_t)(uint64_t)((uint32_t)L_114))))? 1 : 0);
 		bool L_115 = V_21;
 		if (!L_115)
 		{
@@ -14952,7 +14952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommandGenerator_UpdateOrAllocate_mA0D3E
 		Alloc_t78312CFE58F38082281E80E297AE6176BD2BD8AE* L_5 = (Alloc_t78312CFE58F38082281E80E297AE6176BD2BD8AE*)(&L_4->___allocVerts);
 		uint32_t L_6 = L_5->___size;
 		int32_t L_7 = ___1_vertexCount;
-		if ((((int64_t)((int64_t)(uint64_t)L_6)) < ((int64_t)((int64_t)L_7))))
+		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_6))) < ((int64_t)((int64_t)L_7))))
 		{
 			goto IL_0032;
 		}
@@ -14964,7 +14964,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CommandGenerator_UpdateOrAllocate_mA0D3E
 		Alloc_t78312CFE58F38082281E80E297AE6176BD2BD8AE* L_10 = (Alloc_t78312CFE58F38082281E80E297AE6176BD2BD8AE*)(&L_9->___allocIndices);
 		uint32_t L_11 = L_10->___size;
 		int32_t L_12 = ___2_indexCount;
-		G_B4_0 = ((((int32_t)((((int64_t)((int64_t)(uint64_t)L_11)) < ((int64_t)((int64_t)L_12)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		G_B4_0 = ((((int32_t)((((int64_t)((int64_t)(uint64_t)((uint32_t)L_11))) < ((int64_t)((int64_t)L_12)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		goto IL_0033;
 	}
 

@@ -23255,7 +23255,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass5_0_U3CRemoveKernin
 		uint32_t L_1;
 		L_1 = KerningPair_get_firstGlyph_m8B473F310BB1D0E83BE4DB2E9C395C97E578BDCD_inline(L_0, NULL);
 		int32_t L_2 = __this->___left;
-		if ((!(((uint64_t)((int64_t)(uint64_t)L_1)) == ((uint64_t)((int64_t)L_2)))))
+		if ((!(((uint64_t)((int64_t)(uint64_t)((uint32_t)L_1))) == ((uint64_t)((int64_t)L_2)))))
 		{
 			goto IL_0021;
 		}
@@ -23266,7 +23266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CU3Ec__DisplayClass5_0_U3CRemoveKernin
 		uint32_t L_4;
 		L_4 = KerningPair_get_secondGlyph_m7F0717E0FE69CCE0ECFFB39680839D2734C095F0_inline(L_3, NULL);
 		int32_t L_5 = __this->___right;
-		return (bool)((((int64_t)((int64_t)(uint64_t)L_4)) == ((int64_t)((int64_t)L_5)))? 1 : 0);
+		return (bool)((((int64_t)((int64_t)(uint64_t)((uint32_t)L_4))) == ((int64_t)((int64_t)L_5)))? 1 : 0);
 	}
 
 IL_0021:

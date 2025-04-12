@@ -24221,7 +24221,7 @@ IL_002a:
 		V_2 = G_B8_0;
 		(&V_3)->___doubleValue = (0.0);
 		uint32_t L_8 = V_1;
-		(&V_3)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_8)));
+		(&V_3)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)((uint32_t)L_8))));
 		double* L_9 = (double*)(&(&V_3)->___doubleValue);
 		double* L_10 = L_9;
 		double L_11 = *((double*)L_10);

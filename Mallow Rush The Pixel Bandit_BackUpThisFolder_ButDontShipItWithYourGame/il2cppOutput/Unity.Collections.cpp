@@ -28858,7 +28858,7 @@ IL_0006:
 	{
 		(&V_0)->___doubleValue = (0.0);
 		uint32_t L_1 = ___0_x;
-		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_1)));
+		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)((uint32_t)L_1))));
 		double* L_2 = (double*)(&(&V_0)->___doubleValue);
 		double* L_3 = L_2;
 		double L_4 = *((double*)L_3);
@@ -28887,10 +28887,10 @@ IL_0006:
 	{
 		uint32_t L_1 = ___0_x;
 		uint32_t L_2 = ___0_x;
-		___0_x = ((int32_t)((int32_t)L_1&((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_2))))));
+		___0_x = ((int32_t)((int32_t)L_1&((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_2)))))));
 		(&V_0)->___doubleValue = (0.0);
 		uint32_t L_3 = ___0_x;
-		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_3)));
+		(&V_0)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)((uint32_t)L_3))));
 		double* L_4 = (double*)(&(&V_0)->___doubleValue);
 		double* L_5 = L_4;
 		double L_6 = *((double*)L_5);
@@ -28985,7 +28985,7 @@ IL_0024:
 	{
 		(&V_2)->___doubleValue = (0.0);
 		uint32_t L_6 = V_1;
-		(&V_2)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_6)));
+		(&V_2)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)((uint32_t)L_6))));
 		double* L_7 = (double*)(&(&V_2)->___doubleValue);
 		double* L_8 = L_7;
 		double L_9 = *((double*)L_8);
@@ -29064,7 +29064,7 @@ IL_002a:
 		V_2 = G_B8_0;
 		(&V_3)->___doubleValue = (0.0);
 		uint32_t L_8 = V_1;
-		(&V_3)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)L_8)));
+		(&V_3)->___longValue = ((int64_t)il2cpp_codegen_add(((int64_t)4841369599423283200LL), ((int64_t)(uint64_t)((uint32_t)L_8))));
 		double* L_9 = (double*)(&(&V_3)->___doubleValue);
 		double* L_10 = L_9;
 		double L_11 = *((double*)L_10);

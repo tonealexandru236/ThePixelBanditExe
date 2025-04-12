@@ -10710,6 +10710,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isBatchMode_mDE2DA11B2DA
 	bool icallRetVal = _il2cpp_icall_func();
 	return icallRetVal;
 }
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399 (const RuntimeMethod* method) 
+{
+	typedef String_t* (*Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399_ftn) ();
+	static Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Application_get_persistentDataPath_mC58BD3E1A20732E0A536491DBCAE6505B1624399_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_persistentDataPath()");
+	String_t* icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_version_m9CC0E94F12493682C1A2CA803083F6F01BA43124 (const RuntimeMethod* method) 
 {
 	typedef String_t* (*Application_get_version_m9CC0E94F12493682C1A2CA803083F6F01BA43124_ftn) ();
@@ -22052,7 +22061,7 @@ IL_002b:
 		uint32_t L_10 = __this->___denominator;
 		RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F L_11 = ___0_other;
 		uint32_t L_12 = L_11.___numerator;
-		V_1 = (bool)((((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))) == ((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12)))))? 1 : 0);
+		V_1 = (bool)((((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))) == ((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12))))))? 1 : 0);
 		goto IL_004e;
 	}
 
@@ -22132,12 +22141,12 @@ IL_002e:
 		uint32_t L_7 = __this->___numerator;
 		RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F L_8 = ___0_other;
 		uint32_t L_9 = L_8.___denominator;
-		V_3 = ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)));
+		V_3 = ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))));
 		uint32_t L_10 = __this->___denominator;
 		RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F L_11 = ___0_other;
 		uint32_t L_12 = L_11.___numerator;
 		int32_t L_13;
-		L_13 = UInt64_CompareTo_m1292E47C1FE2A1FC5BC5E6E2EB9C1FCDCEFE7745((&V_3), ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12))), NULL);
+		L_13 = UInt64_CompareTo_m1292E47C1FE2A1FC5BC5E6E2EB9C1FCDCEFE7745((&V_3), ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12)))), NULL);
 		V_1 = L_13;
 		goto IL_0057;
 	}
@@ -39832,7 +39841,7 @@ IL_002b:
 		uint32_t L_10 = __this->___denominator;
 		RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F L_11 = ___0_other;
 		uint32_t L_12 = L_11.___numerator;
-		V_1 = (bool)((((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))) == ((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12)))))? 1 : 0);
+		V_1 = (bool)((((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))) == ((int64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12))))))? 1 : 0);
 		goto IL_004e;
 	}
 
@@ -39903,12 +39912,12 @@ IL_002e:
 		uint32_t L_7 = __this->___numerator;
 		RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F L_8 = ___0_other;
 		uint32_t L_9 = L_8.___denominator;
-		V_3 = ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)));
+		V_3 = ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))));
 		uint32_t L_10 = __this->___denominator;
 		RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F L_11 = ___0_other;
 		uint32_t L_12 = L_11.___numerator;
 		int32_t L_13;
-		L_13 = UInt64_CompareTo_m1292E47C1FE2A1FC5BC5E6E2EB9C1FCDCEFE7745((&V_3), ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12))), NULL);
+		L_13 = UInt64_CompareTo_m1292E47C1FE2A1FC5BC5E6E2EB9C1FCDCEFE7745((&V_3), ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12)))), NULL);
 		V_1 = L_13;
 		goto IL_0057;
 	}

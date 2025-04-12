@@ -4839,7 +4839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint32_t L_7 = L_6.___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_8;
 		memset((&L_8), 0, sizeof(L_8));
-		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_8), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_1)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_5)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_7)))), NULL);
+		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_8), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_1))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_3))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_5))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_7))))), NULL);
 		return L_8;
 	}
 }
@@ -21510,7 +21510,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C739071
 		uint32_t L_5 = L_4.___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_6;
 		memset((&L_6), 0, sizeof(L_6));
-		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_6), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_1)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_5)))), NULL);
+		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_6), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_1))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_3))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_5))))), NULL);
 		return L_6;
 	}
 }
@@ -29237,7 +29237,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint32_t L_7 = L_6.___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_8;
 		memset((&L_8), 0, sizeof(L_8));
-		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_8), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_1)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_5)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_7)))), NULL);
+		uint4__ctor_m59B6A219A0285C60FCF2977679BF89C72B502008_inline((&L_8), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_1))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_3))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_5))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_7))))), NULL);
 		return L_8;
 	}
 }

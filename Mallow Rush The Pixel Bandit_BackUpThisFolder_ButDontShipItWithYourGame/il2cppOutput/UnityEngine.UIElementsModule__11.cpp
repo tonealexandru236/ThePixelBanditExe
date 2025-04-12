@@ -17644,7 +17644,7 @@ IL_0232:
 		L_115 = List_1_get_Count_m68EB6812907DC8C45377A3784237676F7AE5A1B1_inline(L_114, List_1_get_Count_m68EB6812907DC8C45377A3784237676F7AE5A1B1_RuntimeMethod_var);
 		NullCheck(L_112);
 		List_1_t5C1C55636F11C4FEC3CCBC415FE4529B01D406D2* L_116;
-		L_116 = List_1_get_Item_mCE554C02FDE30698BC0627CE297319055E9DA0E4(L_112, ((int32_t)((int64_t)(((int64_t)(uint64_t)L_113)%((int64_t)L_115)))), List_1_get_Item_mCE554C02FDE30698BC0627CE297319055E9DA0E4_RuntimeMethod_var);
+		L_116 = List_1_get_Item_mCE554C02FDE30698BC0627CE297319055E9DA0E4(L_112, ((int32_t)((int64_t)(((int64_t)(uint64_t)((uint32_t)L_113))%((int64_t)L_115)))), List_1_get_Item_mCE554C02FDE30698BC0627CE297319055E9DA0E4_RuntimeMethod_var);
 		AllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512* L_117 = ___6_allocToUpdate;
 		AllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512 L_118 = (*(AllocToUpdate_tD0221D0ABC5378DDE5AAB1DAA219C337E562B512*)L_117);
 		NullCheck(L_116);
@@ -18718,7 +18718,7 @@ IL_023c:
 		RenderChainCommand_t4F70E36AF4BC3645C8F9C822B7A3ACE9CB815727* L_85 = ___0_head;
 		NullCheck(L_85);
 		int32_t L_86 = L_85->___indexOffset;
-		V_27 = (bool)((((int32_t)((((int64_t)((int64_t)L_80)) == ((int64_t)((int64_t)il2cpp_codegen_add(((int64_t)(uint64_t)L_84), ((int64_t)L_86)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		V_27 = (bool)((((int32_t)((((int64_t)((int64_t)L_80)) == ((int64_t)((int64_t)il2cpp_codegen_add(((int64_t)(uint64_t)((uint32_t)L_84)), ((int64_t)L_86)))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_87 = V_27;
 		if (!L_87)
 		{
@@ -19415,7 +19415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIRenderDevice_UpdateFenceValue_m2978F0D
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_5 = __this->___m_Fences;
 		NullCheck(L_5);
 		NullCheck(L_3);
-		V_3 = ((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int64_t)(((int64_t)(uint64_t)L_4)%((int64_t)((int32_t)(((RuntimeArray*)L_5)->max_length)))))))));
+		V_3 = ((L_3)->GetAddressAt(static_cast<il2cpp_array_size_t>(((int32_t)((int64_t)(((int64_t)(uint64_t)((uint32_t)L_4))%((int64_t)((int32_t)(((RuntimeArray*)L_5)->max_length)))))))));
 		uint32_t* L_6 = V_3;
 		V_2 = (uint32_t*)((uintptr_t)L_6);
 		goto IL_006c;
@@ -19449,7 +19449,7 @@ IL_0050:
 		V_5 = L_15;
 		int32_t L_16 = V_5;
 		uint32_t L_17 = V_4;
-		V_7 = (bool)((((int64_t)((int64_t)L_16)) == ((int64_t)((int64_t)(uint64_t)L_17)))? 1 : 0);
+		V_7 = (bool)((((int64_t)((int64_t)L_16)) == ((int64_t)((int64_t)(uint64_t)((uint32_t)L_17))))? 1 : 0);
 		bool L_18 = V_7;
 		if (!L_18)
 		{
@@ -19761,7 +19761,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UIRenderDevice_AdvanceFrame_mB7A835C08F4
 		uint32_t L_5 = __this->___m_FrameIndex;
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_6 = __this->___m_Fences;
 		NullCheck(L_6);
-		V_3 = ((int32_t)((int64_t)(((int64_t)(uint64_t)L_5)%((int64_t)((int32_t)(((RuntimeArray*)L_6)->max_length))))));
+		V_3 = ((int32_t)((int64_t)(((int64_t)(uint64_t)((uint32_t)L_5))%((int64_t)((int32_t)(((RuntimeArray*)L_6)->max_length))))));
 		UInt32U5BU5D_t02FBD658AD156A17574ECE6106CF1FBFCC9807FA* L_7 = __this->___m_Fences;
 		int32_t L_8 = V_3;
 		NullCheck(L_7);

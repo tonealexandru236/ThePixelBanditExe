@@ -4517,7 +4517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Texture2DAtlas_NeedsUpdate_mC4400C203B33
 		uint32_t L_11;
 		L_11 = Texture_get_updateCount_m095B04AC5DECCAB128DC136DC42140F32B7021AD(L_10, NULL);
 		int32_t L_12 = V_3;
-		if ((((int64_t)((int64_t)(uint64_t)L_11)) == ((int64_t)((int64_t)L_12))))
+		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_11))) == ((int64_t)((int64_t)L_12))))
 		{
 			goto IL_00a7;
 		}
@@ -4721,7 +4721,7 @@ IL_0035:
 		uint32_t L_23;
 		L_23 = Math_Min_m66781C8F3800C6682369B449FFDB62FAD5E87121(L_20, L_22, NULL);
 		int32_t L_24 = V_4;
-		if ((((int64_t)((int64_t)(uint64_t)L_23)) == ((int64_t)((int64_t)L_24))))
+		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_23))) == ((int64_t)((int64_t)L_24))))
 		{
 			goto IL_0090;
 		}
@@ -4762,7 +4762,7 @@ IL_0090:
 		uint32_t L_35;
 		L_35 = Texture_get_updateCount_m095B04AC5DECCAB128DC136DC42140F32B7021AD(L_34, NULL);
 		int32_t L_36 = V_4;
-		if ((((int64_t)((int64_t)(uint64_t)L_35)) == ((int64_t)((int64_t)L_36))))
+		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_35))) == ((int64_t)((int64_t)L_36))))
 		{
 			goto IL_00b9;
 		}
@@ -4796,7 +4796,7 @@ IL_00b9:
 		uint32_t L_44;
 		L_44 = Texture_get_updateCount_m095B04AC5DECCAB128DC136DC42140F32B7021AD(L_43, NULL);
 		int32_t L_45 = V_4;
-		if ((((int64_t)((int64_t)(uint64_t)L_44)) == ((int64_t)((int64_t)L_45))))
+		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_44))) == ((int64_t)((int64_t)L_45))))
 		{
 			goto IL_0136;
 		}
@@ -9014,7 +9014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BitArray32_get_humanizedVersion_m56
 		uint32_t L_0 = __this->___data;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		String_t* L_1;
-		L_1 = Convert_ToString_mD50A87BAAF57E646B5A7B8AE989EC2A6B8DC1057(((int64_t)(uint64_t)L_0), 2, NULL);
+		L_1 = Convert_ToString_mD50A87BAAF57E646B5A7B8AE989EC2A6B8DC1057(((int64_t)(uint64_t)((uint32_t)L_0)), 2, NULL);
 		return L_1;
 	}
 }
@@ -9052,7 +9052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BitArray32_get_humanizedData_m38DE7
 		uint32_t L_3 = __this->___data;
 		il2cpp_codegen_runtime_class_init_inline(Convert_t7097FF336D592F7C06D88A98349A44646F91EFFC_il2cpp_TypeInfo_var);
 		String_t* L_4;
-		L_4 = Convert_ToString_mD50A87BAAF57E646B5A7B8AE989EC2A6B8DC1057(((int64_t)(uint64_t)L_3), 2, NULL);
+		L_4 = Convert_ToString_mD50A87BAAF57E646B5A7B8AE989EC2A6B8DC1057(((int64_t)(uint64_t)((uint32_t)L_3)), 2, NULL);
 		String_t* L_5;
 		L_5 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(L_2, L_4, NULL);
 		NullCheck(L_5);

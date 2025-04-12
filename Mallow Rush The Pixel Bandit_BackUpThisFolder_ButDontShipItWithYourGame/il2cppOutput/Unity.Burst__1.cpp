@@ -17654,9 +17654,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Bmi2_mulx_u32_mAD055214F77D182AB2E6F
 	{
 		uint32_t L_0 = ___0_a;
 		uint32_t L_1 = ___1_b;
-		V_0 = ((int64_t)(uint64_t)L_1);
+		V_0 = ((int64_t)(uint64_t)((uint32_t)L_1));
 		uint64_t L_2 = V_0;
-		V_1 = ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), (int64_t)L_2));
+		V_1 = ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), (int64_t)L_2));
 		uint32_t* L_3 = ___2_hi;
 		uint64_t L_4 = V_1;
 		*((int32_t*)L_3) = (int32_t)((int32_t)(uint32_t)((int64_t)((uint64_t)L_4>>((int32_t)32))));

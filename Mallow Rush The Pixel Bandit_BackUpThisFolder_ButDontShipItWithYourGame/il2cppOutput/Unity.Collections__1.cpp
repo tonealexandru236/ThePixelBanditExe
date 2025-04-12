@@ -10788,7 +10788,7 @@ IL_0020:
 		V_2 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(((int32_t)((uint32_t)L_8>>((int32_t)23))), ((int32_t)127))), ((int32_t)23)));
 		uint64_t* L_9 = ___0_mantissa10;
 		uint32_t L_10 = V_1;
-		*((int64_t*)L_9) = (int64_t)((int64_t)(uint64_t)L_10);
+		*((int64_t*)L_9) = (int64_t)((int64_t)(uint64_t)((uint32_t)L_10));
 		int32_t* L_11 = ___1_exponent10;
 		int32_t L_12 = V_2;
 		*((int32_t*)L_11) = (int32_t)L_12;
@@ -11613,7 +11613,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeapString__ctor_m0B9A790BD62A53020A7182
 		uint8_t* L_13 = V_0;
 		FixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824* L_14 = ___0_source;
 		uint16_t L_15 = L_14->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)L_15), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)((uint32_t)L_15)), NULL);
 		return;
 	}
 }
@@ -11753,7 +11753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeapString__ctor_mEEA557EA2AC878D2F81F88
 		uint8_t* L_13 = V_0;
 		FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5* L_14 = ___0_source;
 		uint16_t L_15 = L_14->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)L_15), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)((uint32_t)L_15)), NULL);
 		return;
 	}
 }
@@ -11893,7 +11893,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeapString__ctor_m91AED85AF322E379CDA7D2
 		uint8_t* L_13 = V_0;
 		FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* L_14 = ___0_source;
 		uint16_t L_15 = L_14->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)L_15), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)((uint32_t)L_15)), NULL);
 		return;
 	}
 }
@@ -12033,7 +12033,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeapString__ctor_m5CC7D40BE4B9338DC26C8F
 		uint8_t* L_13 = V_0;
 		FixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E* L_14 = ___0_source;
 		uint16_t L_15 = L_14->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)L_15), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)((uint32_t)L_15)), NULL);
 		return;
 	}
 }
@@ -12173,7 +12173,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HeapString__ctor_m8FC697E17DC029A63D68BB
 		uint8_t* L_13 = V_0;
 		FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21* L_14 = ___0_source;
 		uint16_t L_15 = L_14->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)L_15), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_12, (void*)L_13, ((int64_t)(uint64_t)((uint32_t)L_15)), NULL);
 		return;
 	}
 }
@@ -15034,7 +15034,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeText__ctor_m47AA9AA8B157EB420CDF9C
 		uint8_t* L_10 = V_0;
 		FixedString32Bytes_t0FB200DC482825CC1EF24B4640201CC039631824* L_11 = ___0_source;
 		uint16_t L_12 = L_11->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)L_12), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)((uint32_t)L_12)), NULL);
 		return;
 	}
 }
@@ -15091,7 +15091,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeText__ctor_mE647DDFCF5043CFF7F5A10
 		uint8_t* L_10 = V_0;
 		FixedString64Bytes_t0F1B6FFAFD8C15898CD77D91A79AB36AA078E0A5* L_11 = ___0_source;
 		uint16_t L_12 = L_11->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)L_12), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)((uint32_t)L_12)), NULL);
 		return;
 	}
 }
@@ -15148,7 +15148,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeText__ctor_m584B14F89A128D5E866887
 		uint8_t* L_10 = V_0;
 		FixedString128Bytes_tEBC488E0CC30C6D842951A4E6F09AC58677F1952* L_11 = ___0_source;
 		uint16_t L_12 = L_11->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)L_12), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)((uint32_t)L_12)), NULL);
 		return;
 	}
 }
@@ -15205,7 +15205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeText__ctor_mEDAD2B124B0F586C709826
 		uint8_t* L_10 = V_0;
 		FixedString512Bytes_t0C425B0F2C07FEA1642C32BF8559116DF2BFF50E* L_11 = ___0_source;
 		uint16_t L_12 = L_11->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)L_12), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)((uint32_t)L_12)), NULL);
 		return;
 	}
 }
@@ -15262,7 +15262,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeText__ctor_mA6C2CDCE6103147D462691
 		uint8_t* L_10 = V_0;
 		FixedString4096Bytes_t0F6BC703C749C343D1A18E09973BEE0AF0CDFC21* L_11 = ___0_source;
 		uint16_t L_12 = L_11->___utf8LengthInBytes;
-		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)L_12), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177((void*)L_9, (void*)L_10, ((int64_t)(uint64_t)((uint32_t)L_12)), NULL);
 		return;
 	}
 }
@@ -22147,7 +22147,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t xxHash3_Hash64Len4To8_m949252F525568
 		uint64_t L_1 = ___3_seed;
 		uint32_t L_2;
 		L_2 = xxHash3_Swap32_m481CE4DD358BB4EEEAA7BB755D0D7CDB217AC938_inline(((int32_t)(uint32_t)L_1), NULL);
-		___3_seed = ((int64_t)((int64_t)L_0^((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)32)))));
+		___3_seed = ((int64_t)((int64_t)L_0^((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)32)))));
 		uint8_t* L_3 = ___0_input;
 		uint32_t L_4;
 		L_4 = xxHash3_Read32LE_m62349EE7BA4ADC085F994C2773FA74F6DF4F34FB_inline((void*)L_3, NULL);
@@ -22168,7 +22168,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t xxHash3_Hash64Len4To8_m949252F525568
 		uint64_t L_14 = V_1;
 		int64_t L_15 = ___1_length;
 		uint64_t L_16;
-		L_16 = xxHash3_rrmxmx_m6A9334ACD4923087BDCD95D7BDF395AF7FE655E9_inline(((int64_t)(((int64_t)il2cpp_codegen_add(((int64_t)(uint64_t)L_7), ((int64_t)(((int64_t)(uint64_t)L_13)<<((int32_t)32)))))^(int64_t)L_14)), L_15, NULL);
+		L_16 = xxHash3_rrmxmx_m6A9334ACD4923087BDCD95D7BDF395AF7FE655E9_inline(((int64_t)(((int64_t)il2cpp_codegen_add(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(((int64_t)(uint64_t)((uint32_t)L_13))<<((int32_t)32)))))^(int64_t)L_14)), L_15, NULL);
 		return L_16;
 	}
 }
@@ -22548,7 +22548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void xxHash3_Hash128Len1To3_mF8931549F7FD492E
 		V_5 = ((int64_t)(((int64_t)(uint64_t)((uint32_t)L_11))^(int64_t)L_24));
 		uint32_t L_25 = V_2;
 		uint64_t L_26 = V_4;
-		V_6 = ((int64_t)(((int64_t)(uint64_t)L_25)^(int64_t)L_26));
+		V_6 = ((int64_t)(((int64_t)(uint64_t)((uint32_t)L_25))^(int64_t)L_26));
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9* L_27 = ___4_result;
 		uint64_t L_28 = V_5;
 		uint64_t L_29;
@@ -22573,7 +22573,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void xxHash3_Hash128Len4To8_m89E8BAA3AF7CDB18
 		uint64_t L_1 = ___3_seed;
 		uint32_t L_2;
 		L_2 = xxHash3_Swap32_m481CE4DD358BB4EEEAA7BB755D0D7CDB217AC938_inline(((int32_t)(uint32_t)L_1), NULL);
-		___3_seed = ((int64_t)((int64_t)L_0^((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)32)))));
+		___3_seed = ((int64_t)((int64_t)L_0^((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)32)))));
 		uint8_t* L_3 = ___0_input;
 		uint32_t L_4;
 		L_4 = xxHash3_Read32LE_m62349EE7BA4ADC085F994C2773FA74F6DF4F34FB_inline((void*)L_3, NULL);
@@ -22594,7 +22594,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void xxHash3_Hash128Len4To8_m89E8BAA3AF7CDB18
 		uint64_t L_14 = V_1;
 		int64_t L_15 = ___1_len;
 		uint64_t L_16;
-		L_16 = Common_umul128_m6BE762AD1B87296A151EDD918A0802E9FB0846B7(((int64_t)(((int64_t)il2cpp_codegen_add(((int64_t)(uint64_t)L_4), ((int64_t)(((int64_t)(uint64_t)L_8)<<((int32_t)32)))))^(int64_t)L_14)), ((int64_t)il2cpp_codegen_add(((int64_t)-7046029288634856825LL), ((int64_t)(L_15<<2)))), (&V_3), NULL);
+		L_16 = Common_umul128_m6BE762AD1B87296A151EDD918A0802E9FB0846B7(((int64_t)(((int64_t)il2cpp_codegen_add(((int64_t)(uint64_t)((uint32_t)L_4)), ((int64_t)(((int64_t)(uint64_t)((uint32_t)L_8))<<((int32_t)32)))))^(int64_t)L_14)), ((int64_t)il2cpp_codegen_add(((int64_t)-7046029288634856825LL), ((int64_t)(L_15<<2)))), (&V_3), NULL);
 		V_2 = L_16;
 		uint64_t L_17 = V_3;
 		uint64_t L_18 = V_2;
@@ -23137,7 +23137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t xxHash3_Mul32To64_m9210E9379305FC38A
 	{
 		uint32_t L_0 = ___0_x;
 		uint32_t L_1 = ___1_y;
-		return ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_1)));
+		return ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_1))));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t xxHash3_Swap64_m48948C5F5D56486471166A65D3EF6AA8FA5D9753 (uint64_t ___0_x, const RuntimeMethod* method) 
@@ -33710,7 +33710,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint64_t xxHash3_Mul32To64_m9210E
 	{
 		uint32_t L_0 = ___0_x;
 		uint32_t L_1 = ___1_y;
-		return ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_1)));
+		return ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_1))));
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ulong2_t88E623C8BC4E01A85302C13069E4B8ED4EDF6608 xxHash3_Mix32_m84070F24D9D1F2599AA2900CA3251E402D14CA97_inline (ulong2_t88E623C8BC4E01A85302C13069E4B8ED4EDF6608 ___0_acc, uint8_t* ___1_input_1, uint8_t* ___2_input_2, uint8_t* ___3_secret, uint64_t ___4_seed, const RuntimeMethod* method) 

@@ -569,7 +569,6 @@ struct U3CU3Ec_t8F658FC97886173144AB5B56F05CD72CD759F62F;
 struct U3CU3Ec_t2D182393EA106B858CAEA3D7EE337BB680C8188A;
 struct U3CU3Ec_t10469B057ED956C4C04CC02BA6845D323ABE3C98;
 struct U3CU3Ec_t14F61DD792138869FD790665537731861A41131B;
-struct U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F;
 struct U3CU3Ec_t0C29012655706A14445E74D5FEED64FC31464247;
 struct U3CU3Ec_t719C7CB8245835BE86245CA6441D3AECE182C40A;
 struct U3CU3Ec_t3B140B6F08F375AC04A56F5ADB33E8D969B33F01;
@@ -740,7 +739,6 @@ IL2CPP_EXTERN_C RuntimeClass* MouseCaptureEvent_tC9F3C2595ADCE4F88D2553F8F697F00
 IL2CPP_EXTERN_C RuntimeClass* MouseCaptureOutEvent_t55FDD6FD486DDB02F1878EEF2716F444E7A94AF5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MouseDownEvent_tD798610B9C34C7D1CA93C66034A67D330D4A83CD_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MouseEnterEvent_t972DD23B5A1EBA882CFC53569413DBFC586A598E_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* MouseEnterWindowEvent_t35235A8FC26FECB74331E4E5CF5E3ED9BBDD2FA6_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MouseEventDispatchingStrategy_t0D9B199C6AE7E17D0D07C6E4A716DF71BCBA4460_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MouseLeaveEvent_tECE38F87AF42C007350618F592806DFCC51B97D9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MouseLeaveWindowEvent_t29DA8DE08DB54EC65B5D52A2C149C761D7D113C7_il2cpp_TypeInfo_var;
@@ -5173,7 +5171,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListViewDragger_PlaceHoverBarAtElement_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* BaseVerticalCollectionView_get_itemsSource_mE1E01CC16339B3B28C6E1198A74AB8DE8E31A496 (BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_m60B543A63AC8692C28096003FBF2AD124B9D5B85 (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, RuntimeObject* ___1_actualValue, String_t* ___2_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListViewDragger_HandleTreePosition_mEDC14FBEE3553523A540487CE8C5D751BC4C603D (ListViewDragger_t692E8911568C27949D7B443C4B82CB7925111BBD* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_pointerPosition, DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* ___1_dragPosition, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollView_ScrollTo_mE37EABDBF025F65F4C5CB10F09886DFB1F859BEF (ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* __this, VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* ___0_child, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseVerticalCollectionView_ScrollToItem_mA201CA77442DB59FDBAD1AEE7F61FFFA626A8716 (BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* __this, int32_t ___0_index, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Mathf_Approximately_m1DADD012A8FC82E11FB282501AE2EBBF9A77150B_inline (float ___0_a, float ___1_b, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* BaseTreeView_get_viewController_m40790BAA3A7FB0402B4CA93C1554A6B771015823 (BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListViewDragger_HandleSiblingInsertionAtAvailableDepthsAndChangeTargetIfNeeded_m980D23D7D632FFA8B6701909B7E760459816D34E (ListViewDragger_t692E8911568C27949D7B443C4B82CB7925111BBD* __this, DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* ___0_dragPosition, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___1_pointerPosition, const RuntimeMethod* method) ;
@@ -6265,8 +6263,6 @@ inline void MouseEventBase_1_PostDispatch_m554F8A3B5BB1FF34F91107CD64E9E927546D8
 {
 	((  void (*) (MouseEventBase_1_tF3C8E1BD7B93DAD2BE4F4006268997097EA9F8B8*, RuntimeObject*, const RuntimeMethod*))MouseEventBase_1_PostDispatch_m6B960FED57E8CC7841E48230254BAF12F40B4C5E_gshared)(__this, ___0_panel, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3D95664DFA6D9DA047A0B77A43C0AE8579734594 (U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MouseEnterWindowEvent__ctor_mE3ABCA5310EAC1F3C6121F7131445A3F7BED7853 (MouseEnterWindowEvent_t35235A8FC26FECB74331E4E5CF5E3ED9BBDD2FA6* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMin_mE89C40702926D016A633399E20DB9501E251630D_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Rect_get_xMax_m2339C7D2FCDA98A9B007F815F6E2059BA6BE425F_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, const RuntimeMethod* method) ;
@@ -11236,14 +11232,14 @@ IL_00e0:
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_44;
 		L_44 = ScrollView_get_scrollOffset_m487978FA69DE7783183FA219CA9642AEB93EC511(L_43, NULL);
 		V_8 = L_44;
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_45;
-		L_45 = ListViewDragger_get_targetScrollView_m02748BB3D880B454FD1E0EB4137BC5B270F8C7A4(__this, NULL);
+		BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* L_45;
+		L_45 = ListViewDragger_get_targetView_m4DB8D97CBF8ED9B5B004F5A9CA1C4B1993F37FC0(__this, NULL);
 		ReusableCollectionItem_t58A07E0E19A545B24DBE7711A46490EF5E239086* L_46 = V_0;
 		NullCheck(L_46);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_47;
-		L_47 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(4, L_46);
+		int32_t L_47;
+		L_47 = ReusableCollectionItem_get_index_m39FCB0A8975CC57CBF964AB494B171CCA507CCB0_inline(L_46, NULL);
 		NullCheck(L_45);
-		ScrollView_ScrollTo_mE37EABDBF025F65F4C5CB10F09886DFB1F859BEF(L_45, L_47, NULL);
+		BaseVerticalCollectionView_ScrollToItem_mA201CA77442DB59FDBAD1AEE7F61FFFA626A8716(L_45, L_47, NULL);
 		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_48 = V_8;
 		float L_49 = L_48.___x;
 		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_50;
@@ -11474,15 +11470,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListViewDragger_HandleSiblingInsertionAt
 	int32_t V_11 = 0;
 	float V_12 = 0.0f;
 	float V_13 = 0.0f;
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_14;
-	memset((&V_14), 0, sizeof(V_14));
-	int32_t V_15 = 0;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_14 = NULL;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 V_15;
+	memset((&V_15), 0, sizeof(V_15));
 	int32_t V_16 = 0;
-	bool V_17 = false;
+	int32_t V_17 = 0;
 	bool V_18 = false;
 	bool V_19 = false;
 	bool V_20 = false;
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_21 = NULL;
+	bool V_21 = false;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_22 = NULL;
 	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_23 = NULL;
 	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_24;
@@ -11499,33 +11495,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ListViewDragger_HandleSiblingInsertionAt
 	bool V_34 = false;
 	bool V_35 = false;
 	bool V_36 = false;
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_37 = NULL;
-	bool V_38 = false;
-	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_39 = NULL;
-	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_40;
-	memset((&V_40), 0, sizeof(V_40));
-	bool V_41 = false;
+	bool V_37 = false;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_38 = NULL;
+	bool V_39 = false;
+	VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* V_40 = NULL;
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_41;
+	memset((&V_41), 0, sizeof(V_41));
+	bool V_42 = false;
 	int32_t G_B7_0 = 0;
 	int32_t G_B10_0 = 0;
 	int32_t G_B12_0 = 0;
 	int32_t G_B11_0 = 0;
 	int32_t G_B13_0 = 0;
 	int32_t G_B13_1 = 0;
-	int32_t G_B38_0 = 0;
+	int32_t G_B16_0 = 0;
+	int32_t G_B44_0 = 0;
 	{
 		BaseVerticalCollectionView_t2BCDC86B9E301E46CFB2500A834D640F0B96ADAE* L_0;
 		L_0 = ListViewDragger_get_targetView_m4DB8D97CBF8ED9B5B004F5A9CA1C4B1993F37FC0(__this, NULL);
 		V_0 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7*)IsInstClass((RuntimeObject*)L_0, BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var));
 		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_1 = V_0;
-		V_18 = (bool)((((int32_t)((!(((RuntimeObject*)(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_2 = V_18;
+		V_19 = (bool)((((int32_t)((!(((RuntimeObject*)(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7*)L_1) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_2 = V_19;
 		if (!L_2)
 		{
 			goto IL_001f;
 		}
 	}
 	{
-		goto IL_035a;
+		goto IL_0397;
 	}
 
 IL_001f:
@@ -11548,15 +11546,15 @@ IL_001f:
 		int32_t L_11 = L_10->___insertAtIndex;
 		ListViewDragger_GetPreviousAndNextItemsIgnoringDraggedItems_m15EFE5D16EF94C7B7F67BC79624C0B6E78B84D4C(__this, L_11, (&V_4), (&V_5), NULL);
 		int32_t L_12 = V_4;
-		V_19 = (bool)((((int32_t)L_12) == ((int32_t)(-1)))? 1 : 0);
-		bool L_13 = V_19;
+		V_20 = (bool)((((int32_t)L_12) == ((int32_t)(-1)))? 1 : 0);
+		bool L_13 = V_20;
 		if (!L_13)
 		{
 			goto IL_0056;
 		}
 	}
 	{
-		goto IL_035a;
+		goto IL_0397;
 	}
 
 IL_0056:
@@ -11653,416 +11651,469 @@ IL_009d:
 		V_11 = L_32;
 		V_12 = (15.0f);
 		V_13 = (15.0f);
-		int32_t L_33 = V_7;
-		V_20 = (bool)((((int32_t)L_33) > ((int32_t)0))? 1 : 0);
-		bool L_34 = V_20;
-		if (!L_34)
+		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_33 = V_0;
+		int32_t L_34 = V_4;
+		NullCheck(L_33);
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_35;
+		L_35 = BaseVerticalCollectionView_GetRootElementForId_m110AF0E1D8DA003AF3FF63BCED382B0143D41805(L_33, L_34, NULL);
+		V_14 = L_35;
+		int32_t L_36 = V_7;
+		if ((((int32_t)L_36) <= ((int32_t)0)))
 		{
-			goto IL_0111;
+			goto IL_00c8;
 		}
 	}
 	{
-		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_35 = V_0;
-		int32_t L_36 = V_4;
-		NullCheck(L_35);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_37;
-		L_37 = BaseVerticalCollectionView_GetRootElementForId_m110AF0E1D8DA003AF3FF63BCED382B0143D41805(L_35, L_36, NULL);
-		V_21 = L_37;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_38 = V_21;
-		il2cpp_codegen_runtime_class_init_inline(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var);
-		String_t* L_39 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemIndentUssClassName;
-		il2cpp_codegen_runtime_class_init_inline(UQueryExtensions_t1271382882DF1B8FEEDE5EFA510405ABA7BD3426_il2cpp_TypeInfo_var);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_40;
-		L_40 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_38, L_39, (String_t*)NULL, NULL);
-		V_22 = L_40;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_41 = V_21;
-		String_t* L_42 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemToggleUssClassName;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_43;
-		L_43 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_41, L_42, (String_t*)NULL, NULL);
-		V_23 = L_43;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_44 = V_23;
-		NullCheck(L_44);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_45;
-		L_45 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_44, NULL);
-		V_24 = L_45;
-		float L_46;
-		L_46 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
-		V_12 = L_46;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_47 = V_22;
-		NullCheck(L_47);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_48;
-		L_48 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_47, NULL);
-		V_24 = L_48;
-		float L_49;
-		L_49 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
-		int32_t L_50 = V_7;
-		V_13 = ((float)(L_49/((float)L_50)));
-		goto IL_017d;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_37 = V_14;
+		G_B16_0 = ((!(((RuntimeObject*)(VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_37) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		goto IL_00c9;
 	}
 
-IL_0111:
+IL_00c8:
 	{
-		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_51 = V_0;
-		NullCheck(L_51);
-		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_52;
-		L_52 = BaseTreeView_get_viewController_m40790BAA3A7FB0402B4CA93C1554A6B771015823(L_51, NULL);
-		int32_t L_53 = V_3;
+		G_B16_0 = 0;
+	}
+
+IL_00c9:
+	{
+		V_21 = (bool)G_B16_0;
+		bool L_38 = V_21;
+		if (!L_38)
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_39 = V_14;
+		il2cpp_codegen_runtime_class_init_inline(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var);
+		String_t* L_40 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemIndentUssClassName;
+		il2cpp_codegen_runtime_class_init_inline(UQueryExtensions_t1271382882DF1B8FEEDE5EFA510405ABA7BD3426_il2cpp_TypeInfo_var);
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_41;
+		L_41 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_39, L_40, (String_t*)NULL, NULL);
+		V_22 = L_41;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_42 = V_14;
+		String_t* L_43 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemToggleUssClassName;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_44;
+		L_44 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_42, L_43, (String_t*)NULL, NULL);
+		V_23 = L_44;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_45 = V_23;
+		NullCheck(L_45);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_46;
+		L_46 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_45, NULL);
+		V_24 = L_46;
+		float L_47;
+		L_47 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
+		V_12 = L_47;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_48 = V_22;
+		NullCheck(L_48);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_49;
+		L_49 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_48, NULL);
+		V_24 = L_49;
+		float L_50;
+		L_50 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
+		int32_t L_51 = V_7;
+		V_13 = ((float)(L_50/((float)L_51)));
+		goto IL_0185;
+	}
+
+IL_0119:
+	{
+		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_52 = V_0;
 		NullCheck(L_52);
-		int32_t L_54;
-		L_54 = BaseTreeViewController_GetIndentationDepth_m4284FEA4974C0109EFA0B065AAB37EF6C5CE32EE(L_52, L_53, NULL);
-		V_25 = L_54;
-		int32_t L_55 = V_25;
-		V_26 = (bool)((((int32_t)L_55) > ((int32_t)0))? 1 : 0);
-		bool L_56 = V_26;
-		if (!L_56)
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_53;
+		L_53 = BaseTreeView_get_viewController_m40790BAA3A7FB0402B4CA93C1554A6B771015823(L_52, NULL);
+		int32_t L_54 = V_3;
+		NullCheck(L_53);
+		int32_t L_55;
+		L_55 = BaseTreeViewController_GetIndentationDepth_m4284FEA4974C0109EFA0B065AAB37EF6C5CE32EE(L_53, L_54, NULL);
+		V_25 = L_55;
+		int32_t L_56 = V_25;
+		V_26 = (bool)((((int32_t)L_56) > ((int32_t)0))? 1 : 0);
+		bool L_57 = V_26;
+		if (!L_57)
 		{
-			goto IL_017c;
+			goto IL_0184;
 		}
 	}
 	{
-		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_57 = V_0;
-		int32_t L_58 = V_3;
-		NullCheck(L_57);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_59;
-		L_59 = BaseVerticalCollectionView_GetRootElementForId_m110AF0E1D8DA003AF3FF63BCED382B0143D41805(L_57, L_58, NULL);
-		V_27 = L_59;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_60 = V_27;
+		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_58 = V_0;
+		int32_t L_59 = V_3;
+		NullCheck(L_58);
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_60;
+		L_60 = BaseVerticalCollectionView_GetRootElementForId_m110AF0E1D8DA003AF3FF63BCED382B0143D41805(L_58, L_59, NULL);
+		V_27 = L_60;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_61 = V_27;
 		il2cpp_codegen_runtime_class_init_inline(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var);
-		String_t* L_61 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemIndentUssClassName;
+		String_t* L_62 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemIndentUssClassName;
 		il2cpp_codegen_runtime_class_init_inline(UQueryExtensions_t1271382882DF1B8FEEDE5EFA510405ABA7BD3426_il2cpp_TypeInfo_var);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_62;
-		L_62 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_60, L_61, (String_t*)NULL, NULL);
-		V_28 = L_62;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_63 = V_27;
-		String_t* L_64 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemToggleUssClassName;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_65;
-		L_65 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_63, L_64, (String_t*)NULL, NULL);
-		V_29 = L_65;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_66 = V_29;
-		NullCheck(L_66);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_67;
-		L_67 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_66, NULL);
-		V_24 = L_67;
-		float L_68;
-		L_68 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
-		V_12 = L_68;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_69 = V_28;
-		NullCheck(L_69);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_70;
-		L_70 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_69, NULL);
-		V_24 = L_70;
-		float L_71;
-		L_71 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
-		int32_t L_72 = V_25;
-		V_13 = ((float)(L_71/((float)L_72)));
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_63;
+		L_63 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_61, L_62, (String_t*)NULL, NULL);
+		V_28 = L_63;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_64 = V_27;
+		String_t* L_65 = ((BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_StaticFields*)il2cpp_codegen_static_fields_for(BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7_il2cpp_TypeInfo_var))->___itemToggleUssClassName;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_66;
+		L_66 = UQueryExtensions_Q_m95306617BF08AC2853EABB5299786D2095BE631E(L_64, L_65, (String_t*)NULL, NULL);
+		V_29 = L_66;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_67 = V_29;
+		NullCheck(L_67);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_68;
+		L_68 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_67, NULL);
+		V_24 = L_68;
+		float L_69;
+		L_69 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
+		V_12 = L_69;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_70 = V_28;
+		NullCheck(L_70);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_71;
+		L_71 = VisualElement_get_layout_m71851CB694EE1348CDCA83353FFF3C1FB2F69C1A(L_70, NULL);
+		V_24 = L_71;
+		float L_72;
+		L_72 = Rect_get_width_m620D67551372073C9C32C4C4624C2A5713F7F9A9_inline((&V_24), NULL);
+		int32_t L_73 = V_25;
+		V_13 = ((float)(L_72/((float)L_73)));
 	}
 
-IL_017c:
+IL_0184:
 	{
 	}
 
-IL_017d:
+IL_0185:
 	{
-		int32_t L_73 = V_10;
-		int32_t L_74 = V_9;
-		V_30 = (bool)((((int32_t)((((int32_t)L_73) > ((int32_t)L_74))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_75 = V_30;
-		if (!L_75)
+		int32_t L_74 = V_10;
+		int32_t L_75 = V_9;
+		V_30 = (bool)((((int32_t)((((int32_t)L_74) > ((int32_t)L_75))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_76 = V_30;
+		if (!L_76)
 		{
-			goto IL_01da;
+			goto IL_0217;
 		}
 	}
 	{
-		float L_76 = V_12;
-		float L_77 = V_13;
-		int32_t L_78 = V_9;
-		__this->___m_LeftIndentation = ((float)il2cpp_codegen_add(L_76, ((float)il2cpp_codegen_multiply(L_77, ((float)L_78)))));
-		bool L_79 = V_6;
-		V_31 = L_79;
-		bool L_80 = V_31;
-		if (!L_80)
+		float L_77 = V_12;
+		float L_78 = V_13;
+		int32_t L_79 = V_9;
+		__this->___m_LeftIndentation = ((float)il2cpp_codegen_add(L_77, ((float)il2cpp_codegen_multiply(L_78, ((float)L_79)))));
+		bool L_80 = V_6;
+		V_31 = L_80;
+		bool L_81 = V_31;
+		if (!L_81)
 		{
-			goto IL_01b7;
+			goto IL_01c2;
 		}
 	}
 	{
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_81 = ___0_dragPosition;
-		int32_t L_82 = V_4;
-		L_81->___parentId = L_82;
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_83 = ___0_dragPosition;
-		L_83->___childIndex = 0;
-		goto IL_01d5;
-	}
-
-IL_01b7:
-	{
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_82 = ___0_dragPosition;
+		int32_t L_83 = V_4;
+		L_82->___parentId = L_83;
 		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_84 = ___0_dragPosition;
-		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_85 = V_1;
-		int32_t L_86 = V_4;
-		NullCheck(L_85);
-		int32_t L_87;
-		L_87 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_85, L_86);
-		L_84->___parentId = L_87;
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_88 = ___0_dragPosition;
+		L_84->___childIndex = 0;
+		goto IL_0212;
+	}
+
+IL_01c2:
+	{
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_85 = ___0_dragPosition;
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_86 = V_1;
+		int32_t L_87 = V_4;
+		NullCheck(L_86);
+		int32_t L_88;
+		L_88 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_86, L_87);
+		L_85->___parentId = L_88;
 		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_89 = V_1;
 		int32_t L_90 = V_5;
 		NullCheck(L_89);
 		int32_t L_91;
-		L_91 = BaseTreeViewController_GetChildIndexForId_m52A71D7FAE9DB0F7F3DCD54C843F904F91BE16F6(L_89, L_90, NULL);
-		L_88->___childIndex = L_91;
-	}
-
-IL_01d5:
-	{
-		goto IL_035a;
-	}
-
-IL_01da:
-	{
-		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_92 = V_0;
+		L_91 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_89, L_90);
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_92 = V_1;
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_93 = ___0_dragPosition;
+		int32_t L_94 = L_93->___insertAtIndex;
 		NullCheck(L_92);
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_93;
-		L_93 = BaseVerticalCollectionView_get_scrollView_mB4F44C6276CC57A0D8AD030F3C396650532E83CC_inline(L_92, NULL);
-		NullCheck(L_93);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_94;
-		L_94 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(99, L_93);
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_95 = ___1_pointerPosition;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_96;
-		L_96 = VisualElementExtensions_WorldToLocal_m9AB4674D3198B2C87E9D53DB56077BA769059EF9(L_94, L_95, NULL);
-		V_14 = L_96;
-		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_97 = V_14;
-		float L_98 = L_97.___x;
-		float L_99 = V_12;
-		float L_100 = V_13;
-		int32_t L_101;
-		L_101 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(((float)il2cpp_codegen_subtract(L_98, L_99))/L_100)), NULL);
-		V_15 = L_101;
-		int32_t L_102 = V_15;
-		int32_t L_103 = V_10;
-		V_32 = (bool)((((int32_t)((((int32_t)L_102) < ((int32_t)L_103))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_104 = V_32;
-		if (!L_104)
+		int32_t L_95;
+		L_95 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(12, L_92, L_94);
+		V_32 = (bool)((((int32_t)L_91) == ((int32_t)L_95))? 1 : 0);
+		bool L_96 = V_32;
+		if (!L_96)
 		{
-			goto IL_0260;
+			goto IL_0201;
 		}
 	}
 	{
-		float L_105 = V_12;
-		float L_106 = V_13;
-		int32_t L_107 = V_10;
-		__this->___m_LeftIndentation = ((float)il2cpp_codegen_add(L_105, ((float)il2cpp_codegen_multiply(L_106, ((float)L_107)))));
-		bool L_108 = V_6;
-		V_33 = L_108;
-		bool L_109 = V_33;
-		if (!L_109)
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_97 = ___0_dragPosition;
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_98 = V_1;
+		int32_t L_99 = V_4;
+		NullCheck(L_98);
+		int32_t L_100;
+		L_100 = BaseTreeViewController_GetChildIndexForId_m52A71D7FAE9DB0F7F3DCD54C843F904F91BE16F6(L_98, L_99, NULL);
+		L_97->___childIndex = ((int32_t)il2cpp_codegen_add(L_100, 1));
+		goto IL_0211;
+	}
+
+IL_0201:
+	{
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_101 = ___0_dragPosition;
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_102 = V_1;
+		int32_t L_103 = V_5;
+		NullCheck(L_102);
+		int32_t L_104;
+		L_104 = BaseTreeViewController_GetChildIndexForId_m52A71D7FAE9DB0F7F3DCD54C843F904F91BE16F6(L_102, L_103, NULL);
+		L_101->___childIndex = L_104;
+	}
+
+IL_0211:
+	{
+	}
+
+IL_0212:
+	{
+		goto IL_0397;
+	}
+
+IL_0217:
+	{
+		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_105 = V_0;
+		NullCheck(L_105);
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_106;
+		L_106 = BaseVerticalCollectionView_get_scrollView_mB4F44C6276CC57A0D8AD030F3C396650532E83CC_inline(L_105, NULL);
+		NullCheck(L_106);
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_107;
+		L_107 = VirtualFuncInvoker0< VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* >::Invoke(99, L_106);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_108 = ___1_pointerPosition;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_109;
+		L_109 = VisualElementExtensions_WorldToLocal_m9AB4674D3198B2C87E9D53DB56077BA769059EF9(L_107, L_108, NULL);
+		V_15 = L_109;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_110 = V_15;
+		float L_111 = L_110.___x;
+		float L_112 = V_12;
+		float L_113 = V_13;
+		int32_t L_114;
+		L_114 = Mathf_FloorToInt_m2A39AE881CAEE6B6A4B3BFEF9CA1ED40625F5AB7_inline(((float)(((float)il2cpp_codegen_subtract(L_111, L_112))/L_113)), NULL);
+		V_16 = L_114;
+		int32_t L_115 = V_16;
+		int32_t L_116 = V_10;
+		V_33 = (bool)((((int32_t)((((int32_t)L_115) < ((int32_t)L_116))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_117 = V_33;
+		if (!L_117)
 		{
-			goto IL_023b;
+			goto IL_029d;
 		}
 	}
 	{
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_110 = ___0_dragPosition;
-		int32_t L_111 = V_4;
-		L_110->___parentId = L_111;
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_112 = ___0_dragPosition;
-		L_112->___childIndex = 0;
-		goto IL_025b;
-	}
-
-IL_023b:
-	{
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_113 = ___0_dragPosition;
-		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_114 = V_1;
-		int32_t L_115 = V_4;
-		NullCheck(L_114);
-		int32_t L_116;
-		L_116 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_114, L_115);
-		L_113->___parentId = L_116;
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_117 = ___0_dragPosition;
-		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_118 = V_1;
-		int32_t L_119 = V_4;
-		NullCheck(L_118);
-		int32_t L_120;
-		L_120 = BaseTreeViewController_GetChildIndexForId_m52A71D7FAE9DB0F7F3DCD54C843F904F91BE16F6(L_118, L_119, NULL);
-		L_117->___childIndex = ((int32_t)il2cpp_codegen_add(L_120, 1));
-	}
-
-IL_025b:
-	{
-		goto IL_035a;
-	}
-
-IL_0260:
-	{
-		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_121 = V_1;
-		int32_t L_122 = V_11;
-		NullCheck(L_121);
-		int32_t L_123;
-		L_123 = BaseTreeViewController_GetIndentationDepth_m4284FEA4974C0109EFA0B065AAB37EF6C5CE32EE(L_121, L_122, NULL);
-		V_16 = L_123;
-		goto IL_028c;
-	}
-
-IL_026c:
-	{
-		int32_t L_124 = V_16;
-		int32_t L_125 = V_15;
-		V_34 = (bool)((((int32_t)L_124) == ((int32_t)L_125))? 1 : 0);
-		bool L_126 = V_34;
-		if (!L_126)
+		float L_118 = V_12;
+		float L_119 = V_13;
+		int32_t L_120 = V_10;
+		__this->___m_LeftIndentation = ((float)il2cpp_codegen_add(L_118, ((float)il2cpp_codegen_multiply(L_119, ((float)L_120)))));
+		bool L_121 = V_6;
+		V_34 = L_121;
+		bool L_122 = V_34;
+		if (!L_122)
 		{
-			goto IL_027b;
+			goto IL_0278;
 		}
 	}
 	{
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_123 = ___0_dragPosition;
+		int32_t L_124 = V_4;
+		L_123->___parentId = L_124;
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_125 = ___0_dragPosition;
+		L_125->___childIndex = 0;
 		goto IL_0298;
 	}
 
-IL_027b:
+IL_0278:
 	{
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_126 = ___0_dragPosition;
 		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_127 = V_1;
-		int32_t L_128 = V_11;
+		int32_t L_128 = V_4;
 		NullCheck(L_127);
 		int32_t L_129;
 		L_129 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_127, L_128);
-		V_11 = L_129;
-		int32_t L_130 = V_16;
-		V_16 = ((int32_t)il2cpp_codegen_subtract(L_130, 1));
-	}
-
-IL_028c:
-	{
-		int32_t L_131 = V_16;
-		int32_t L_132 = V_9;
-		V_35 = (bool)((((int32_t)L_131) > ((int32_t)L_132))? 1 : 0);
-		bool L_133 = V_35;
-		if (L_133)
-		{
-			goto IL_026c;
-		}
+		L_126->___parentId = L_129;
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_130 = ___0_dragPosition;
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_131 = V_1;
+		int32_t L_132 = V_4;
+		NullCheck(L_131);
+		int32_t L_133;
+		L_133 = BaseTreeViewController_GetChildIndexForId_m52A71D7FAE9DB0F7F3DCD54C843F904F91BE16F6(L_131, L_132, NULL);
+		L_130->___childIndex = ((int32_t)il2cpp_codegen_add(L_133, 1));
 	}
 
 IL_0298:
 	{
-		int32_t L_134 = V_11;
-		int32_t L_135 = V_3;
-		V_17 = (bool)((((int32_t)((((int32_t)L_134) == ((int32_t)L_135))? 1 : 0)) == ((int32_t)0))? 1 : 0);
-		bool L_136 = V_17;
-		V_36 = L_136;
-		bool L_137 = V_36;
-		if (!L_137)
+		goto IL_0397;
+	}
+
+IL_029d:
+	{
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_134 = V_1;
+		int32_t L_135 = V_11;
+		NullCheck(L_134);
+		int32_t L_136;
+		L_136 = BaseTreeViewController_GetIndentationDepth_m4284FEA4974C0109EFA0B065AAB37EF6C5CE32EE(L_134, L_135, NULL);
+		V_17 = L_136;
+		goto IL_02c9;
+	}
+
+IL_02a9:
+	{
+		int32_t L_137 = V_17;
+		int32_t L_138 = V_16;
+		V_35 = (bool)((((int32_t)L_137) == ((int32_t)L_138))? 1 : 0);
+		bool L_139 = V_35;
+		if (!L_139)
 		{
-			goto IL_032d;
+			goto IL_02b8;
 		}
 	}
 	{
-		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_138 = V_0;
-		int32_t L_139 = V_11;
-		NullCheck(L_138);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_140;
-		L_140 = BaseVerticalCollectionView_GetRootElementForId_m110AF0E1D8DA003AF3FF63BCED382B0143D41805(L_138, L_139, NULL);
-		V_37 = L_140;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_141 = V_37;
-		V_38 = (bool)((!(((RuntimeObject*)(VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_141) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
-		bool L_142 = V_38;
-		if (!L_142)
+		goto IL_02d5;
+	}
+
+IL_02b8:
+	{
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_140 = V_1;
+		int32_t L_141 = V_11;
+		NullCheck(L_140);
+		int32_t L_142;
+		L_142 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_140, L_141);
+		V_11 = L_142;
+		int32_t L_143 = V_17;
+		V_17 = ((int32_t)il2cpp_codegen_subtract(L_143, 1));
+	}
+
+IL_02c9:
+	{
+		int32_t L_144 = V_17;
+		int32_t L_145 = V_9;
+		V_36 = (bool)((((int32_t)L_144) > ((int32_t)L_145))? 1 : 0);
+		bool L_146 = V_36;
+		if (L_146)
 		{
-			goto IL_032c;
+			goto IL_02a9;
+		}
+	}
+
+IL_02d5:
+	{
+		int32_t L_147 = V_11;
+		int32_t L_148 = V_3;
+		V_18 = (bool)((((int32_t)((((int32_t)L_147) == ((int32_t)L_148))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		bool L_149 = V_18;
+		V_37 = L_149;
+		bool L_150 = V_37;
+		if (!L_150)
+		{
+			goto IL_036a;
 		}
 	}
 	{
-		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_143;
-		L_143 = ListViewDragger_get_targetScrollView_m02748BB3D880B454FD1E0EB4137BC5B270F8C7A4(__this, NULL);
-		NullCheck(L_143);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_144;
-		L_144 = ScrollView_get_contentViewport_mC91CCE63C249B77A5D192BEBC9C600C212C724B8_inline(L_143, NULL);
-		V_39 = L_144;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_145 = V_39;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_146 = V_37;
-		NullCheck(L_146);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_147;
-		L_147 = VisualElement_get_worldBound_m2E4AF689F0B4AB06E1316348A1E10D4DB2412AC3(L_146, NULL);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_148;
-		L_148 = VisualElementExtensions_WorldToLocal_m6F92CEAE8BF73F6729262B535191AD1437DC1A9F(L_145, L_147, NULL);
-		V_40 = L_148;
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_149 = V_39;
-		NullCheck(L_149);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_150;
-		L_150 = VisualElement_get_localBound_m449E6720326BE6E4AD69346B0D8D179170ED6EF7(L_149, NULL);
-		V_24 = L_150;
-		float L_151;
-		L_151 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&V_24), NULL);
-		float L_152;
-		L_152 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_40), NULL);
-		if ((!(((float)L_151) < ((float)L_152))))
+		BaseTreeView_t4B72EA959CB8F22C78269844A43D51C4AB360DD7* L_151 = V_0;
+		int32_t L_152 = V_11;
+		NullCheck(L_151);
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_153;
+		L_153 = BaseVerticalCollectionView_GetRootElementForId_m110AF0E1D8DA003AF3FF63BCED382B0143D41805(L_151, L_152, NULL);
+		V_38 = L_153;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_154 = V_38;
+		V_39 = (bool)((!(((RuntimeObject*)(VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115*)L_154) <= ((RuntimeObject*)(RuntimeObject*)NULL)))? 1 : 0);
+		bool L_155 = V_39;
+		if (!L_155)
 		{
-			goto IL_0315;
+			goto IL_0369;
 		}
 	}
 	{
-		float L_153;
-		L_153 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_40), NULL);
-		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_154 = V_39;
-		NullCheck(L_154);
-		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_155;
-		L_155 = VisualElement_get_localBound_m449E6720326BE6E4AD69346B0D8D179170ED6EF7(L_154, NULL);
-		V_24 = L_155;
-		float L_156;
-		L_156 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_24), NULL);
-		G_B38_0 = ((((float)L_153) < ((float)L_156))? 1 : 0);
-		goto IL_0316;
-	}
-
-IL_0315:
-	{
-		G_B38_0 = 0;
-	}
-
-IL_0316:
-	{
-		V_41 = (bool)G_B38_0;
-		bool L_157 = V_41;
-		if (!L_157)
+		ScrollView_t7CE209084E084FAA0E8DF3CD8E3B8BB9EB27E8D9* L_156;
+		L_156 = ListViewDragger_get_targetScrollView_m02748BB3D880B454FD1E0EB4137BC5B270F8C7A4(__this, NULL);
+		NullCheck(L_156);
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_157;
+		L_157 = ScrollView_get_contentViewport_mC91CCE63C249B77A5D192BEBC9C600C212C724B8_inline(L_156, NULL);
+		V_40 = L_157;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_158 = V_40;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_159 = V_38;
+		NullCheck(L_159);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_160;
+		L_160 = VisualElement_get_worldBound_m2E4AF689F0B4AB06E1316348A1E10D4DB2412AC3(L_159, NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_161;
+		L_161 = VisualElementExtensions_WorldToLocal_m6F92CEAE8BF73F6729262B535191AD1437DC1A9F(L_158, L_160, NULL);
+		V_41 = L_161;
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_162 = V_40;
+		NullCheck(L_162);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_163;
+		L_163 = VisualElement_get_localBound_m449E6720326BE6E4AD69346B0D8D179170ED6EF7(L_162, NULL);
+		V_24 = L_163;
+		float L_164;
+		L_164 = Rect_get_yMin_mB19848FB25DE61EDF958F7A22CFDD86DE103062F_inline((&V_24), NULL);
+		float L_165;
+		L_165 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_41), NULL);
+		if ((!(((float)L_164) < ((float)L_165))))
 		{
-			goto IL_032b;
+			goto IL_0352;
 		}
 	}
 	{
-		float L_158;
-		L_158 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_40), NULL);
-		__this->___m_SiblingBottom = L_158;
+		float L_166;
+		L_166 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_41), NULL);
+		VisualElement_t2667F9D19E62C7A315927506C06F223AB9234115* L_167 = V_40;
+		NullCheck(L_167);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_168;
+		L_168 = VisualElement_get_localBound_m449E6720326BE6E4AD69346B0D8D179170ED6EF7(L_167, NULL);
+		V_24 = L_168;
+		float L_169;
+		L_169 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_24), NULL);
+		G_B44_0 = ((((float)L_166) < ((float)L_169))? 1 : 0);
+		goto IL_0353;
 	}
 
-IL_032b:
+IL_0352:
+	{
+		G_B44_0 = 0;
+	}
+
+IL_0353:
+	{
+		V_42 = (bool)G_B44_0;
+		bool L_170 = V_42;
+		if (!L_170)
+		{
+			goto IL_0368;
+		}
+	}
+	{
+		float L_171;
+		L_171 = Rect_get_yMax_mBC37BEE1CD632AADD8B9EAF9FE3BA143F79CAF8E_inline((&V_41), NULL);
+		__this->___m_SiblingBottom = L_171;
+	}
+
+IL_0368:
 	{
 	}
 
-IL_032c:
+IL_0369:
 	{
 	}
 
-IL_032d:
+IL_036a:
 	{
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_159 = ___0_dragPosition;
-		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_160 = V_1;
-		int32_t L_161 = V_11;
-		NullCheck(L_160);
-		int32_t L_162;
-		L_162 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_160, L_161);
-		L_159->___parentId = L_162;
-		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_163 = ___0_dragPosition;
-		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_164 = V_1;
-		int32_t L_165 = V_11;
-		NullCheck(L_164);
-		int32_t L_166;
-		L_166 = BaseTreeViewController_GetChildIndexForId_m52A71D7FAE9DB0F7F3DCD54C843F904F91BE16F6(L_164, L_165, NULL);
-		L_163->___childIndex = ((int32_t)il2cpp_codegen_add(L_166, 1));
-		float L_167 = V_12;
-		float L_168 = V_13;
-		int32_t L_169 = V_16;
-		__this->___m_LeftIndentation = ((float)il2cpp_codegen_add(L_167, ((float)il2cpp_codegen_multiply(L_168, ((float)L_169)))));
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_172 = ___0_dragPosition;
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_173 = V_1;
+		int32_t L_174 = V_11;
+		NullCheck(L_173);
+		int32_t L_175;
+		L_175 = VirtualFuncInvoker1< int32_t, int32_t >::Invoke(23, L_173, L_174);
+		L_172->___parentId = L_175;
+		DragPosition_t922FC1F61C1B1A510241E4207B94AA1CD7E94660* L_176 = ___0_dragPosition;
+		BaseTreeViewController_t8359BFF7DA01FF2425D81CB17628B4B43AC6E5C0* L_177 = V_1;
+		int32_t L_178 = V_11;
+		NullCheck(L_177);
+		int32_t L_179;
+		L_179 = BaseTreeViewController_GetChildIndexForId_m52A71D7FAE9DB0F7F3DCD54C843F904F91BE16F6(L_177, L_178, NULL);
+		L_176->___childIndex = ((int32_t)il2cpp_codegen_add(L_179, 1));
+		float L_180 = V_12;
+		float L_181 = V_13;
+		int32_t L_182 = V_17;
+		__this->___m_LeftIndentation = ((float)il2cpp_codegen_add(L_180, ((float)il2cpp_codegen_multiply(L_181, ((float)L_182)))));
 	}
 
-IL_035a:
+IL_0397:
 	{
 		return;
 	}
@@ -30480,51 +30531,6 @@ IL_0029:
 		RuntimeObject* L_5 = ___0_panel;
 		MouseEventBase_1_PostDispatch_m554F8A3B5BB1FF34F91107CD64E9E927546D800D(__this, L_5, MouseEventBase_1_PostDispatch_m554F8A3B5BB1FF34F91107CD64E9E927546D800D_RuntimeMethod_var);
 		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m3FBBDD433BA131A2FA438AD54474CFE0745FEC48 (const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F* L_0 = (U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F*)il2cpp_codegen_object_new(U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F_il2cpp_TypeInfo_var);
-		U3CU3Ec__ctor_m3D95664DFA6D9DA047A0B77A43C0AE8579734594(L_0, NULL);
-		((U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F_il2cpp_TypeInfo_var))->___U3CU3E9 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F_il2cpp_TypeInfo_var))->___U3CU3E9), (void*)L_0);
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m3D95664DFA6D9DA047A0B77A43C0AE8579734594 (U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F* __this, const RuntimeMethod* method) 
-{
-	{
-		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		return;
-	}
-}
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MouseEnterWindowEvent_t35235A8FC26FECB74331E4E5CF5E3ED9BBDD2FA6* U3CU3Ec_U3C_cctorU3Eb__0_0_m7BF33CDB90B2B6F2A02D9DD0884B8C813DFB79D4 (U3CU3Ec_t6851B9E09E06FD5C75BEC4E7E7423DCFAE7C662F* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MouseEnterWindowEvent_t35235A8FC26FECB74331E4E5CF5E3ED9BBDD2FA6_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		MouseEnterWindowEvent_t35235A8FC26FECB74331E4E5CF5E3ED9BBDD2FA6* L_0 = (MouseEnterWindowEvent_t35235A8FC26FECB74331E4E5CF5E3ED9BBDD2FA6*)il2cpp_codegen_object_new(MouseEnterWindowEvent_t35235A8FC26FECB74331E4E5CF5E3ED9BBDD2FA6_il2cpp_TypeInfo_var);
-		MouseEnterWindowEvent__ctor_mE3ABCA5310EAC1F3C6121F7131445A3F7BED7853(L_0, NULL);
-		return L_0;
 	}
 }
 #ifdef __clang__

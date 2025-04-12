@@ -2546,7 +2546,7 @@ IL_0139:
 		int32_t L_51 = V_4;
 		ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B L_52 = V_2;
 		uint32_t L_53 = L_52.___m_NbPairs;
-		V_14 = (bool)((((int64_t)((int64_t)L_51)) < ((int64_t)((int64_t)(uint64_t)L_53)))? 1 : 0);
+		V_14 = (bool)((((int64_t)((int64_t)L_51)) < ((int64_t)((int64_t)(uint64_t)((uint32_t)L_53))))? 1 : 0);
 		bool L_54 = V_14;
 		if (L_54)
 		{
@@ -3660,7 +3660,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ContactPair_t096319945A27108A2DA384393A9ED390
 	{
 		int32_t L_0 = ___0_index;
 		uint32_t L_1 = __this->___m_NbPairs;
-		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)L_0)) < ((int64_t)((int64_t)(uint64_t)L_1)))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+		V_0 = (bool)((((int32_t)((((int64_t)((int64_t)L_0)) < ((int64_t)((int64_t)(uint64_t)((uint32_t)L_1))))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 		bool L_2 = V_0;
 		if (!L_2)
 		{

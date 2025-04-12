@@ -20100,7 +20100,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextEditingUtilities_TouchScreenKeyboard
 		int32_t L_3 = V_1;
 		if ((((int32_t)L_3) == ((int32_t)((int32_t)11))))
 		{
-			goto IL_0019;
+			goto IL_001b;
 		}
 	}
 	{
@@ -20110,32 +20110,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextEditingUtilities_TouchScreenKeyboard
 IL_0012:
 	{
 		int32_t L_4 = V_1;
-		if ((((int32_t)L_4) == ((int32_t)((int32_t)17))))
+		if ((!(((uint32_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_4, ((int32_t)17)))) > ((uint32_t)3))))
 		{
-			goto IL_0019;
+			goto IL_001b;
 		}
 	}
 	{
-		goto IL_0024;
+		goto IL_0026;
 	}
 
-IL_0019:
+IL_001b:
 	{
 		bool L_5;
 		L_5 = TouchScreenKeyboard_get_isInPlaceEditingAllowed_mE57CDF32437DD1DCDC665072457C91DD31EB93D0(NULL);
 		V_3 = (bool)((((int32_t)L_5) == ((int32_t)0))? 1 : 0);
-		goto IL_002c;
+		goto IL_002e;
 	}
 
-IL_0024:
+IL_0026:
 	{
 		bool L_6;
 		L_6 = TouchScreenKeyboard_get_isSupported_mCFAC95CA6CAA06B4E21F42E3C40A39668D6B438E(NULL);
 		V_3 = L_6;
-		goto IL_002c;
+		goto IL_002e;
 	}
 
-IL_002c:
+IL_002e:
 	{
 		bool L_7 = V_3;
 		return L_7;

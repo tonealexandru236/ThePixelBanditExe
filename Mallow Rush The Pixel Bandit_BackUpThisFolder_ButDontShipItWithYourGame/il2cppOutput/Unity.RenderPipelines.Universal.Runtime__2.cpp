@@ -1323,9 +1323,6 @@ struct ShaderResources_t0F010F6CBF0716DE29FCD187D4FA4368AC407628  : public Runti
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___autodeskInteractivePS;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___autodeskInteractiveTransparentPS;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___autodeskInteractiveMaskedPS;
-	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___terrainDetailLitPS;
-	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___terrainDetailGrassPS;
-	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___terrainDetailGrassBillboardPS;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___defaultSpeedTree7PS;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___defaultSpeedTree8PS;
 };
@@ -1345,6 +1342,9 @@ struct ShaderResources_t9E48D1BC255505EC66B90558EF6489F704FD3663  : public Runti
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___cameraMotionVector;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___objectMotionVector;
 	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___dataDrivenLensFlare;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___terrainDetailLitPS;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___terrainDetailGrassPS;
+	Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* ___terrainDetailGrassBillboardPS;
 };
 struct ShaderResources_t95EDE5488A460139658FEF1B3A26B3685A72730A  : public RuntimeObject
 {
@@ -8542,7 +8542,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShadowRendering_InitializeBudget_m04E410
 		RTHandleU5BU5D_tE4B403B060D159B839BF74E8B59F8DCD52CF97DF* L_1 = ((ShadowRendering_t927C356103DCFAD951416AC236F7E87D3D824B80_StaticFields*)il2cpp_codegen_static_fields_for(ShadowRendering_t927C356103DCFAD951416AC236F7E87D3D824B80_il2cpp_TypeInfo_var))->___m_RenderTargets;
 		NullCheck(L_1);
 		uint32_t L_2 = ___0_maxTextureCount;
-		if ((((int64_t)((int64_t)((int32_t)(((RuntimeArray*)L_1)->max_length)))) == ((int64_t)((int64_t)(uint64_t)L_2))))
+		if ((((int64_t)((int64_t)((int32_t)(((RuntimeArray*)L_1)->max_length)))) == ((int64_t)((int64_t)(uint64_t)((uint32_t)L_2)))))
 		{
 			goto IL_0081;
 		}
@@ -8607,7 +8607,7 @@ IL_007b:
 	{
 		int32_t L_28 = V_0;
 		uint32_t L_29 = ___0_maxTextureCount;
-		if ((((int64_t)((int64_t)L_28)) < ((int64_t)((int64_t)(uint64_t)L_29))))
+		if ((((int64_t)((int64_t)L_28)) < ((int64_t)((int64_t)(uint64_t)((uint32_t)L_29)))))
 		{
 			goto IL_0033;
 		}
@@ -8627,7 +8627,7 @@ IL_0081:
 		RenderTargetIdentifierU5BU5D_t179798C153B7CE381B41C57863F98CB24023C4CE* L_31 = ((ShadowRendering_t927C356103DCFAD951416AC236F7E87D3D824B80_StaticFields*)il2cpp_codegen_static_fields_for(ShadowRendering_t927C356103DCFAD951416AC236F7E87D3D824B80_il2cpp_TypeInfo_var))->___m_LightInputTextures;
 		NullCheck(L_31);
 		uint32_t L_32 = ___0_maxTextureCount;
-		if ((((int64_t)((int64_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))) == ((int64_t)((int64_t)(uint64_t)L_32))))
+		if ((((int64_t)((int64_t)((int32_t)(((RuntimeArray*)L_31)->max_length)))) == ((int64_t)((int64_t)(uint64_t)((uint32_t)L_32)))))
 		{
 			goto IL_009f;
 		}
@@ -13712,6 +13712,189 @@ IL_001f:
 	{
 		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_4 = __this->___m_DefaultShader;
 		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* UniversalRenderPipelineAsset_get_terrainDetailLitShader_m093D57C2E34887070AB965E8F7F30B238A402869 (UniversalRenderPipelineAsset_tE8A9AA6F030CC3B558CEA2EB54FFF4FC58CA6232* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* V_0 = NULL;
+	int32_t V_1 = 0;
+	UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* V_2 = NULL;
+	{
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_0 = __this->___m_RendererDataList;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0027;
+	}
+
+IL_000b:
+	{
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		ScriptableRendererData_t9005CE645D4881FA4431E52EDC7678203632CAA7* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = ((UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6*)IsInstClass((RuntimeObject*)L_4, UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6_il2cpp_TypeInfo_var));
+		UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* L_6 = V_2;
+		NullCheck(L_6);
+		ShaderResources_t9E48D1BC255505EC66B90558EF6489F704FD3663* L_7 = L_6->___shaders;
+		NullCheck(L_7);
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_8 = L_7->___terrainDetailLitPS;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_11 = V_0;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692*)NULL;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* UniversalRenderPipelineAsset_get_terrainDetailGrassShader_mE0D72C1D041A3728D349E47C64D69D225F4D3AFC (UniversalRenderPipelineAsset_tE8A9AA6F030CC3B558CEA2EB54FFF4FC58CA6232* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* V_0 = NULL;
+	int32_t V_1 = 0;
+	UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* V_2 = NULL;
+	{
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_0 = __this->___m_RendererDataList;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0027;
+	}
+
+IL_000b:
+	{
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		ScriptableRendererData_t9005CE645D4881FA4431E52EDC7678203632CAA7* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = ((UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6*)IsInstClass((RuntimeObject*)L_4, UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6_il2cpp_TypeInfo_var));
+		UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* L_6 = V_2;
+		NullCheck(L_6);
+		ShaderResources_t9E48D1BC255505EC66B90558EF6489F704FD3663* L_7 = L_6->___shaders;
+		NullCheck(L_7);
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_8 = L_7->___terrainDetailGrassPS;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_11 = V_0;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692*)NULL;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* UniversalRenderPipelineAsset_get_terrainDetailGrassBillboardShader_m6CA274206983BE43AD979E9DA1B9359771CBE3EC (UniversalRenderPipelineAsset_tE8A9AA6F030CC3B558CEA2EB54FFF4FC58CA6232* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* V_0 = NULL;
+	int32_t V_1 = 0;
+	UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* V_2 = NULL;
+	{
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_0 = __this->___m_RendererDataList;
+		V_0 = L_0;
+		V_1 = 0;
+		goto IL_0027;
+	}
+
+IL_000b:
+	{
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_1 = V_0;
+		int32_t L_2 = V_1;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		ScriptableRendererData_t9005CE645D4881FA4431E52EDC7678203632CAA7* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_2 = ((UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6*)IsInstClass((RuntimeObject*)L_4, UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6_il2cpp_TypeInfo_var));
+		UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* L_5 = V_2;
+		if (!L_5)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		UniversalRendererData_t57D400CEB38765F55EB74FDBD786B9A73C293CA6* L_6 = V_2;
+		NullCheck(L_6);
+		ShaderResources_t9E48D1BC255505EC66B90558EF6489F704FD3663* L_7 = L_6->___shaders;
+		NullCheck(L_7);
+		Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692* L_8 = L_7->___terrainDetailGrassBillboardPS;
+		return L_8;
+	}
+
+IL_0023:
+	{
+		int32_t L_9 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
+	}
+
+IL_0027:
+	{
+		int32_t L_10 = V_1;
+		ScriptableRendererDataU5BU5D_tC674C147618C92B68DB64ECFDC847C8A941C6169* L_11 = V_0;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) < ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_000b;
+		}
+	}
+	{
+		return (Shader_tADC867D36B7876EE22427FAA2CE485105F4EE692*)NULL;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* UniversalRenderPipelineAsset_get_renderingLayerMaskNames_m4C52BE633F6C25E4B23E75564D6562A1E1B94D8C (UniversalRenderPipelineAsset_tE8A9AA6F030CC3B558CEA2EB54FFF4FC58CA6232* __this, const RuntimeMethod* method) 

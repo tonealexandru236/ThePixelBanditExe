@@ -21858,10 +21858,10 @@ IL_009c:
 		V_3 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_37, ((int32_t)48)));
 		uint64_t L_38 = V_4;
 		uint32_t L_39 = V_3;
-		V_4 = ((int64_t)il2cpp_codegen_add((int64_t)L_38, ((int64_t)(uint64_t)L_39)));
+		V_4 = ((int64_t)il2cpp_codegen_add((int64_t)L_38, ((int64_t)(uint64_t)((uint32_t)L_39))));
 		uint64_t L_40 = V_4;
 		uint32_t L_41 = V_3;
-		if ((!(((uint64_t)L_40) < ((uint64_t)((int64_t)(uint64_t)L_41)))))
+		if ((!(((uint64_t)L_40) < ((uint64_t)((int64_t)(uint64_t)((uint32_t)L_41))))))
 		{
 			goto IL_00ee;
 		}
@@ -22925,7 +22925,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Number_Mul32x32To64_m62E7C94359C291C
 	{
 		uint32_t L_0 = ___0_a;
 		uint32_t L_1 = ___1_b;
-		return ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_1)));
+		return ((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_1))));
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Number_Mul64Lossy_mA553A13173792A902027CBCAB38AF0B397294904 (uint64_t ___0_a, uint64_t ___1_b, int32_t* ___2_pexp, const RuntimeMethod* method) 
@@ -23098,7 +23098,7 @@ IL_002f:
 		il2cpp_codegen_runtime_class_init_inline(Number_tA71F95D4B9F046BDA97EFA91BC6517925969650A_il2cpp_TypeInfo_var);
 		uint32_t L_16;
 		L_16 = Number_DigitsToInt_m9BAE32A512E389040B51B8858D7F4C449B305EF2(L_14, L_15, NULL);
-		V_0 = ((int64_t)(uint64_t)L_16);
+		V_0 = ((int64_t)(uint64_t)((uint32_t)L_16));
 		int32_t L_17 = V_3;
 		if ((((int32_t)L_17) <= ((int32_t)0)))
 		{
@@ -23134,7 +23134,7 @@ IL_002f:
 		int32_t L_34 = V_5;
 		uint32_t L_35;
 		L_35 = Number_DigitsToInt_m9BAE32A512E389040B51B8858D7F4C449B305EF2(((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_33, ((intptr_t)il2cpp_codegen_multiply(((intptr_t)((int32_t)9)), 2)))), L_34, NULL);
-		V_0 = ((int64_t)il2cpp_codegen_add((int64_t)L_32, ((int64_t)(uint64_t)L_35)));
+		V_0 = ((int64_t)il2cpp_codegen_add((int64_t)L_32, ((int64_t)(uint64_t)((uint32_t)L_35))));
 	}
 
 IL_0093:

@@ -1656,7 +1656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_NextInt_m8D466D37B7144CBE66EFD
 		uint32_t L_0;
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		int32_t L_1 = ___0_max;
-		return ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_1)))>>((int32_t)32))));
+		return ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_1)))>>((int32_t)32))));
 	}
 }
 IL2CPP_EXTERN_C  int32_t Random_NextInt_m8D466D37B7144CBE66EFDE4A8A5C32EE8A19D4AE_AdjustorThunk (RuntimeObject* __this, int32_t ___0_max, const RuntimeMethod* method)
@@ -1680,7 +1680,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_4 = ___0_max;
 		int32_t L_5 = L_4.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_6;
-		L_6 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)L_5)))>>((int32_t)32)))), NULL);
+		L_6 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)L_5)))>>((int32_t)32)))), NULL);
 		return L_6;
 	}
 }
@@ -1709,7 +1709,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2B
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_7 = ___0_max;
 		int32_t L_8 = L_7.___z;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_9;
-		L_9 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)L_8)))>>((int32_t)32)))), NULL);
+		L_9 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)L_8)))>>((int32_t)32)))), NULL);
 		return L_9;
 	}
 }
@@ -1742,7 +1742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4_tBA77D4945786DE82C3A487B33955EA100499605
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_10 = ___0_max;
 		int32_t L_11 = L_10.___w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_12;
-		L_12 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)L_8)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)L_11)))>>((int32_t)32)))), NULL);
+		L_12 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)L_8)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)L_11)))>>((int32_t)32)))), NULL);
 		return L_12;
 	}
 }
@@ -1766,7 +1766,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_NextInt_m794218A3A149A97A6276B
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3 = V_0;
 		int32_t L_4 = ___0_min;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_2), ((int64_t)(uint64_t)L_3)))>>((int32_t)32)))), L_4));
+		return ((int32_t)il2cpp_codegen_add(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_2)), ((int64_t)(uint64_t)((uint32_t)L_3))))>>((int32_t)32)))), L_4));
 	}
 }
 IL2CPP_EXTERN_C  int32_t Random_NextInt_m794218A3A149A97A6276B37A546E381D44E0222B_AdjustorThunk (RuntimeObject* __this, int32_t ___0_min, int32_t ___1_max, const RuntimeMethod* method)
@@ -1799,7 +1799,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_8 = V_0;
 		uint32_t L_9 = L_8.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_10;
-		L_10 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_4), ((int64_t)(uint64_t)L_6)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))>>((int32_t)32)))), NULL);
+		L_10 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_4)), ((int64_t)(uint64_t)((uint32_t)L_6))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))>>((int32_t)32)))), NULL);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_11 = ___0_min;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_12;
 		L_12 = int2_op_Addition_mB8210BD1CFEF218431BCFB14816FA467B196BCB7_inline(L_10, L_11, NULL);
@@ -1840,7 +1840,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2B
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_11 = V_0;
 		uint32_t L_12 = L_11.___z;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_13;
-		L_13 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_4), ((int64_t)(uint64_t)L_6)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12)))>>((int32_t)32)))), NULL);
+		L_13 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_4)), ((int64_t)(uint64_t)((uint32_t)L_6))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12))))>>((int32_t)32)))), NULL);
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_14 = ___0_min;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_15;
 		L_15 = int3_op_Addition_m9B2F4DA2E31115B4E8C84161D9FFB160B3D42868_inline(L_13, L_14, NULL);
@@ -1885,7 +1885,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int4_tBA77D4945786DE82C3A487B33955EA100499605
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_14 = V_0;
 		uint32_t L_15 = L_14.___w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_16;
-		L_16 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_4), ((int64_t)(uint64_t)L_6)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_13), ((int64_t)(uint64_t)L_15)))>>((int32_t)32)))), NULL);
+		L_16 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_4)), ((int64_t)(uint64_t)((uint32_t)L_6))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_13)), ((int64_t)(uint64_t)((uint32_t)L_15))))>>((int32_t)32)))), NULL);
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_17 = ___0_min;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18;
 		L_18 = int4_op_Addition_mB3F3CC9F1DEF872C2920F19D38A396D423510624_inline(L_16, L_17, NULL);
@@ -1999,7 +1999,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Random_NextUInt_m0EABE55AAEF8FE95540
 		uint32_t L_0;
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1 = ___0_max;
-		return ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_1)))>>((int32_t)32))));
+		return ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_1))))>>((int32_t)32))));
 	}
 }
 IL2CPP_EXTERN_C  uint32_t Random_NextUInt_m0EABE55AAEF8FE95540B79312F74F2FE42D98E0D_AdjustorThunk (RuntimeObject* __this, uint32_t ___0_max, const RuntimeMethod* method)
@@ -2023,7 +2023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C0
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4 = ___0_max;
 		uint32_t L_5 = L_4.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_6;
-		L_6 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_2)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), NULL);
+		L_6 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_2))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), NULL);
 		return L_6;
 	}
 }
@@ -2052,7 +2052,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_7 = ___0_max;
 		uint32_t L_8 = L_7.___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_9;
-		L_9 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_2)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), NULL);
+		L_9 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_2))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), NULL);
 		return L_9;
 	}
 }
@@ -2085,7 +2085,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_10 = ___0_max;
 		uint32_t L_11 = L_10.___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
-		L_12 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_2)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)(uint64_t)L_11)))>>((int32_t)32)))), NULL);
+		L_12 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_2))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)(uint64_t)((uint32_t)L_11))))>>((int32_t)32)))), NULL);
 		return L_12;
 	}
 }
@@ -2109,7 +2109,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Random_NextUInt_mFE21661ECBCCD41B302
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3 = V_0;
 		uint32_t L_4 = ___0_min;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_2), ((int64_t)(uint64_t)L_3)))>>((int32_t)32)))), (int32_t)L_4));
+		return ((int32_t)il2cpp_codegen_add(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_2)), ((int64_t)(uint64_t)((uint32_t)L_3))))>>((int32_t)32)))), (int32_t)L_4));
 	}
 }
 IL2CPP_EXTERN_C  uint32_t Random_NextUInt_mFE21661ECBCCD41B3021E84CFC2886C8DAF248C9_AdjustorThunk (RuntimeObject* __this, uint32_t ___0_min, uint32_t ___1_max, const RuntimeMethod* method)
@@ -2140,7 +2140,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C0
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_7 = V_0;
 		uint32_t L_8 = L_7.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_9;
-		L_9 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), NULL);
+		L_9 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), NULL);
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_10 = ___0_min;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_11;
 		L_11 = uint2_op_Addition_m208A269559B52DBA5098C871B450E3AC857A1E4E_inline(L_9, L_10, NULL);
@@ -2179,7 +2179,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_10 = V_0;
 		uint32_t L_11 = L_10.___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_12;
-		L_12 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)(uint64_t)L_11)))>>((int32_t)32)))), NULL);
+		L_12 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)(uint64_t)((uint32_t)L_11))))>>((int32_t)32)))), NULL);
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_13 = ___0_min;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_14;
 		L_14 = uint3_op_Addition_mD11BEB362388E20A02C6D431C2ED912807585589_inline(L_12, L_13, NULL);
@@ -2222,7 +2222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
 		uint32_t L_14 = L_13.___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_15;
-		L_15 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)(uint64_t)L_11)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_12), ((int64_t)(uint64_t)L_14)))>>((int32_t)32)))), NULL);
+		L_15 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)(uint64_t)((uint32_t)L_11))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_12)), ((int64_t)(uint64_t)((uint32_t)L_14))))>>((int32_t)32)))), NULL);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16 = ___0_min;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17;
 		L_17 = uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline(L_15, L_16, NULL);
@@ -2534,7 +2534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double Random_NextDouble_m2BE3A56A949E0525E41
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint64_t L_2 = V_0;
 		double L_3;
 		L_3 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_2)), NULL);
@@ -2559,12 +2559,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B318B64F830D72
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint32_t L_2;
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3;
 		L_3 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)20)))^((int64_t)(uint64_t)L_3)));
+		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_3))));
 		uint64_t L_4 = V_0;
 		double L_5;
 		L_5 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_4)), NULL);
@@ -2597,17 +2597,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E064709F4B4B9E
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint32_t L_2;
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3;
 		L_3 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)20)))^((int64_t)(uint64_t)L_3)));
+		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_3))));
 		uint32_t L_4;
 		L_4 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_5;
 		L_5 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_4)<<((int32_t)20)))^((int64_t)(uint64_t)L_5)));
+		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_4))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_5))));
 		uint64_t L_6 = V_0;
 		double L_7;
 		L_7 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_6)), NULL);
@@ -2644,22 +2644,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F83AB6F8EC776
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint32_t L_2;
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3;
 		L_3 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)20)))^((int64_t)(uint64_t)L_3)));
+		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_3))));
 		uint32_t L_4;
 		L_4 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_5;
 		L_5 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_4)<<((int32_t)20)))^((int64_t)(uint64_t)L_5)));
+		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_4))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_5))));
 		uint32_t L_6;
 		L_6 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_7;
 		L_7 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_3 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_6)<<((int32_t)20)))^((int64_t)(uint64_t)L_7)));
+		V_3 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_6))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_7))));
 		uint64_t L_8 = V_0;
 		double L_9;
 		L_9 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_8)), NULL);
@@ -4814,7 +4814,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C0
 		uint32_t L_3 = L_2.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4;
 		memset((&L_4), 0, sizeof(L_4));
-		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_4), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_1)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3)))), NULL);
+		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_4), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_1))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_3))))), NULL);
 		return L_4;
 	}
 }
@@ -12904,7 +12904,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F
 		uint32_t L_5 = L_4.___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_6;
 		memset((&L_6), 0, sizeof(L_6));
-		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_6), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_1)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_5)))), NULL);
+		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_6), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_1))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_3))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_5))))), NULL);
 		return L_6;
 	}
 }
@@ -20343,7 +20343,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Random_NextInt_m8D466D37B
 		uint32_t L_0;
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		int32_t L_1 = ___0_max;
-		return ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_1)))>>((int32_t)32))));
+		return ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_1)))>>((int32_t)32))));
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A Random_NextInt2_m01B05B94428625116A7A55D4D436738C6ED8EABF_inline (Random_tF24B964D3D5DE57D52CCDBF2E91ACE60F01F5F37* __this, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_max, const RuntimeMethod* method) 
@@ -20358,7 +20358,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B9
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_4 = ___0_max;
 		int32_t L_5 = L_4.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_6;
-		L_6 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)L_5)))>>((int32_t)32)))), NULL);
+		L_6 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)L_5)))>>((int32_t)32)))), NULL);
 		return L_6;
 	}
 }
@@ -20378,7 +20378,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int3_t1D01D28AA6D32890A228297EBAD
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_7 = ___0_max;
 		int32_t L_8 = L_7.___z;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_9;
-		L_9 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)L_8)))>>((int32_t)32)))), NULL);
+		L_9 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)L_8)))>>((int32_t)32)))), NULL);
 		return L_9;
 	}
 }
@@ -20402,7 +20402,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int4_tBA77D4945786DE82C3A487B3395
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_10 = ___0_max;
 		int32_t L_11 = L_10.___w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_12;
-		L_12 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)L_8)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)L_11)))>>((int32_t)32)))), NULL);
+		L_12 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)L_2)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)L_5)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)L_8)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)L_11)))>>((int32_t)32)))), NULL);
 		return L_12;
 	}
 }
@@ -20417,7 +20417,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Random_NextInt_m794218A3A
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3 = V_0;
 		int32_t L_4 = ___0_min;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_2), ((int64_t)(uint64_t)L_3)))>>((int32_t)32)))), L_4));
+		return ((int32_t)il2cpp_codegen_add(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_2)), ((int64_t)(uint64_t)((uint32_t)L_3))))>>((int32_t)32)))), L_4));
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A int2_op_Subtraction_mF8ED8DDFDE3303758800ED22B85CAE5DE9FE9764_inline (int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___0_lhs, int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A ___1_rhs, const RuntimeMethod* method) 
@@ -20485,7 +20485,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int2_tF4AC25F87943DC0B2BB3456B0B9
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_8 = V_0;
 		uint32_t L_9 = L_8.___y;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_10;
-		L_10 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_4), ((int64_t)(uint64_t)L_6)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))>>((int32_t)32)))), NULL);
+		L_10 = math_int2_m0A9A8113022D7954E7DA5BE5436989C2DF01650D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_4)), ((int64_t)(uint64_t)((uint32_t)L_6))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))>>((int32_t)32)))), NULL);
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_11 = ___0_min;
 		int2_tF4AC25F87943DC0B2BB3456B0B919B3B42A9432A L_12;
 		L_12 = int2_op_Addition_mB8210BD1CFEF218431BCFB14816FA467B196BCB7_inline(L_10, L_11, NULL);
@@ -20569,7 +20569,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int3_t1D01D28AA6D32890A228297EBAD
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_11 = V_0;
 		uint32_t L_12 = L_11.___z;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_13;
-		L_13 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_4), ((int64_t)(uint64_t)L_6)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12)))>>((int32_t)32)))), NULL);
+		L_13 = math_int3_m16B9E4EC932F2FFCE0358E2DA77C92D67C0F3B9D_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_4)), ((int64_t)(uint64_t)((uint32_t)L_6))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12))))>>((int32_t)32)))), NULL);
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_14 = ___0_min;
 		int3_t1D01D28AA6D32890A228297EBADD9BB1A960E2BF L_15;
 		L_15 = int3_op_Addition_m9B2F4DA2E31115B4E8C84161D9FFB160B3D42868_inline(L_13, L_14, NULL);
@@ -20665,7 +20665,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int4_tBA77D4945786DE82C3A487B3395
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_14 = V_0;
 		uint32_t L_15 = L_14.___w;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_16;
-		L_16 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_4), ((int64_t)(uint64_t)L_6)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_7), ((int64_t)(uint64_t)L_9)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_10), ((int64_t)(uint64_t)L_12)))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_13), ((int64_t)(uint64_t)L_15)))>>((int32_t)32)))), NULL);
+		L_16 = math_int4_mE5D69C9C3EDF9C819D6BE6923C7A9C1AB3A6F781_inline(((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_4)), ((int64_t)(uint64_t)((uint32_t)L_6))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_7)), ((int64_t)(uint64_t)((uint32_t)L_9))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_10)), ((int64_t)(uint64_t)((uint32_t)L_12))))>>((int32_t)32)))), ((int32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_13)), ((int64_t)(uint64_t)((uint32_t)L_15))))>>((int32_t)32)))), NULL);
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_17 = ___0_min;
 		int4_tBA77D4945786DE82C3A487B33955EA1004996052 L_18;
 		L_18 = int4_op_Addition_mB3F3CC9F1DEF872C2920F19D38A396D423510624_inline(L_16, L_17, NULL);
@@ -20788,7 +20788,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t Random_NextUInt_m0EABE55
 		uint32_t L_0;
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1 = ___0_max;
-		return ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_1)))>>((int32_t)32))));
+		return ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_1))))>>((int32_t)32))));
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F Random_NextUInt2_m1CDDB093577225F624937A10067B0CDEB3808859_inline (Random_tF24B964D3D5DE57D52CCDBF2E91ACE60F01F5F37* __this, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_max, const RuntimeMethod* method) 
@@ -20803,7 +20803,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AF
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4 = ___0_max;
 		uint32_t L_5 = L_4.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_6;
-		L_6 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_2)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), NULL);
+		L_6 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_2))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), NULL);
 		return L_6;
 	}
 }
@@ -20823,7 +20823,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C739071
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_7 = ___0_max;
 		uint32_t L_8 = L_7.___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_9;
-		L_9 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_2)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), NULL);
+		L_9 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_2))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), NULL);
 		return L_9;
 	}
 }
@@ -20847,7 +20847,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_10 = ___0_max;
 		uint32_t L_11 = L_10.___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_12;
-		L_12 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_0), ((int64_t)(uint64_t)L_2)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)(uint64_t)L_11)))>>((int32_t)32)))), NULL);
+		L_12 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_0)), ((int64_t)(uint64_t)((uint32_t)L_2))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)(uint64_t)((uint32_t)L_11))))>>((int32_t)32)))), NULL);
 		return L_12;
 	}
 }
@@ -20862,7 +20862,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t Random_NextUInt_mFE21661
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3 = V_0;
 		uint32_t L_4 = ___0_min;
-		return ((int32_t)il2cpp_codegen_add(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_2), ((int64_t)(uint64_t)L_3)))>>((int32_t)32)))), (int32_t)L_4));
+		return ((int32_t)il2cpp_codegen_add(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_2)), ((int64_t)(uint64_t)((uint32_t)L_3))))>>((int32_t)32)))), (int32_t)L_4));
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F uint2_op_Subtraction_m3FB5F0CCDA1FAE7022DD76AF86240BDA86C54A10_inline (uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___0_lhs, uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F ___1_rhs, const RuntimeMethod* method) 
@@ -20918,7 +20918,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AF
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_7 = V_0;
 		uint32_t L_8 = L_7.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_9;
-		L_9 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), NULL);
+		L_9 = math_uint2_m861F5F74EBBBD3DA19E84A1155320B89FF7341C3_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), NULL);
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_10 = ___0_min;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_11;
 		L_11 = uint2_op_Addition_m208A269559B52DBA5098C871B450E3AC857A1E4E_inline(L_9, L_10, NULL);
@@ -20990,7 +20990,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C739071
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_10 = V_0;
 		uint32_t L_11 = L_10.___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_12;
-		L_12 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)(uint64_t)L_11)))>>((int32_t)32)))), NULL);
+		L_12 = math_uint3_mC94DDA8B357EA045D5A36B81CECD0C5C223B71B0_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)(uint64_t)((uint32_t)L_11))))>>((int32_t)32)))), NULL);
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_13 = ___0_min;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_14;
 		L_14 = uint3_op_Addition_mD11BEB362388E20A02C6D431C2ED912807585589_inline(L_12, L_13, NULL);
@@ -21074,7 +21074,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint4_t6C69CBFAE9BF0F727D52B68779
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_13 = V_0;
 		uint32_t L_14 = L_13.___w;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_15;
-		L_15 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_3), ((int64_t)(uint64_t)L_5)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_6), ((int64_t)(uint64_t)L_8)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_9), ((int64_t)(uint64_t)L_11)))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)L_12), ((int64_t)(uint64_t)L_14)))>>((int32_t)32)))), NULL);
+		L_15 = math_uint4_m7F6A5341327B9EF6B80C82FD1B93E4F32287A336_inline(((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_3)), ((int64_t)(uint64_t)((uint32_t)L_5))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_6)), ((int64_t)(uint64_t)((uint32_t)L_8))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_9)), ((int64_t)(uint64_t)((uint32_t)L_11))))>>((int32_t)32)))), ((int32_t)(uint32_t)((int64_t)((uint64_t)((int64_t)il2cpp_codegen_multiply(((int64_t)(uint64_t)((uint32_t)L_12)), ((int64_t)(uint64_t)((uint32_t)L_14))))>>((int32_t)32)))), NULL);
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_16 = ___0_min;
 		uint4_t6C69CBFAE9BF0F727D52B68779D4A3F0DBA8D5C9 L_17;
 		L_17 = uint4_op_Addition_m391200EB43B6C4CDD219079A0D3CDFFA35B0B652_inline(L_15, L_16, NULL);
@@ -21698,7 +21698,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double Random_NextDouble_m2BE3A56
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint64_t L_2 = V_0;
 		double L_3;
 		L_3 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_2)), NULL);
@@ -21740,12 +21740,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double2_t0A9854C934D0BBE9DD41F2B3
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint32_t L_2;
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3;
 		L_3 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)20)))^((int64_t)(uint64_t)L_3)));
+		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_3))));
 		uint64_t L_4 = V_0;
 		double L_5;
 		L_5 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_4)), NULL);
@@ -21799,17 +21799,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double3_t4E22E063009822491E39D3E0
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint32_t L_2;
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3;
 		L_3 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)20)))^((int64_t)(uint64_t)L_3)));
+		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_3))));
 		uint32_t L_4;
 		L_4 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_5;
 		L_5 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_4)<<((int32_t)20)))^((int64_t)(uint64_t)L_5)));
+		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_4))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_5))));
 		uint64_t L_6 = V_0;
 		double L_7;
 		L_7 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_6)), NULL);
@@ -21871,22 +21871,22 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR double4_t82EF3F10905F7357C3F8C08F
 		L_0 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_1;
 		L_1 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_0)<<((int32_t)20)))^((int64_t)(uint64_t)L_1)));
+		V_0 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_0))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_1))));
 		uint32_t L_2;
 		L_2 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_3;
 		L_3 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_2)<<((int32_t)20)))^((int64_t)(uint64_t)L_3)));
+		V_1 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_2))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_3))));
 		uint32_t L_4;
 		L_4 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_5;
 		L_5 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_4)<<((int32_t)20)))^((int64_t)(uint64_t)L_5)));
+		V_2 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_4))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_5))));
 		uint32_t L_6;
 		L_6 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
 		uint32_t L_7;
 		L_7 = Random_NextState_m3C669E9C9DBB958FABE0879335C0732A91DA02F7_inline(__this, NULL);
-		V_3 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)L_6)<<((int32_t)20)))^((int64_t)(uint64_t)L_7)));
+		V_3 = ((int64_t)(((int64_t)(((int64_t)(uint64_t)((uint32_t)L_6))<<((int32_t)20)))^((int64_t)(uint64_t)((uint32_t)L_7))));
 		uint64_t L_8 = V_0;
 		double L_9;
 		L_9 = math_asdouble_m3E7BC790C743E67EA45476AECD6D2D9A9E62E4F2_inline(((int64_t)(((int64_t)4607182418800017408LL)|(int64_t)L_8)), NULL);
@@ -25058,7 +25058,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint2_t157753816C23B82EB918C3D3AF
 		uint32_t L_3 = L_2.___y;
 		uint2_t157753816C23B82EB918C3D3AFCFDDE06A04C05F L_4;
 		memset((&L_4), 0, sizeof(L_4));
-		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_4), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_1)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3)))), NULL);
+		uint2__ctor_mDE945EFF54FDA16335AC19E9E01A9BAE161B8D3F_inline((&L_4), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_1))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_3))))), NULL);
 		return L_4;
 	}
 }
@@ -29499,7 +29499,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint3_tC1C1C817DB46ED2E6A6C739071
 		uint32_t L_5 = L_4.___z;
 		uint3_tC1C1C817DB46ED2E6A6C7390716FDDD565917F7B L_6;
 		memset((&L_6), 0, sizeof(L_6));
-		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_6), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_1)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_3)))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)L_5)))), NULL);
+		uint3__ctor_mEFEA14BBA36F53111474B0C3C3B729061F1ACCAF_inline((&L_6), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_1))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_3))))), ((int32_t)(uint32_t)((-((int64_t)(uint64_t)((uint32_t)L_5))))), NULL);
 		return L_6;
 	}
 }
