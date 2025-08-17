@@ -1996,6 +1996,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ParamsArray_get_Item_m44F2FAA4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArgumentOutOfRangeException__ctor_mBC1D5DEEA1BA41DE77228CB27D6BAFEB6DCCBF4A (ArgumentOutOfRangeException_tEA2822DAF62B10EEED00E0E3A341D4BAF78CF85F* __this, String_t* ___0_paramName, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParseNumbers_EatWhiteSpace_m5E6A388970FB987686C212731D105090D561043C (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_s, int32_t* ___1_i, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t ParseNumbers_GrabLongs_m68161035045FFACC9C219853C402FAB112B78C2B (int32_t ___0_radix, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_s, int32_t* ___2_i, bool ___3_isUnsigned, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParseNumbers_StringToInt_mE762839BFF1D52853DC70197BDDD20F9FFB834A2 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_s, int32_t ___1_radix, int32_t ___2_flags, int32_t* ___3_currPos, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParseNumbers_GrabInts_m39E2988970437087754723B3AA09DE813DFE6D89 (int32_t ___0_radix, ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___1_s, int32_t* ___2_i, bool ___3_isUnsigned, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool ParseNumbers_IsDigit_m57009BBBB0BB55B3201E88946E98F1EDD808B0A3_inline (Il2CppChar ___0_c, int32_t ___1_radix, int32_t* ___2_result, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ParseNumbers_ThrowOverflowInt64Exception_mCE33DF536224D6086FB96E2192FE2F8524821465 (const RuntimeMethod* method) ;
@@ -25930,6 +25931,19 @@ IL_0179:
 	{
 		int64_t L_68 = V_5;
 		return L_68;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParseNumbers_StringToInt_m2CF7F31B011C00E259BF9B0AC270E2C3B50847F1 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_s, int32_t ___1_radix, int32_t ___2_flags, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		V_0 = 0;
+		ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 L_0 = ___0_s;
+		int32_t L_1 = ___1_radix;
+		int32_t L_2 = ___2_flags;
+		int32_t L_3;
+		L_3 = ParseNumbers_StringToInt_mE762839BFF1D52853DC70197BDDD20F9FFB834A2(L_0, L_1, L_2, (&V_0), NULL);
+		return L_3;
 	}
 }
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ParseNumbers_StringToInt_mE762839BFF1D52853DC70197BDDD20F9FFB834A2 (ReadOnlySpan_1_t59614EA6E51A945A32B02AB17FBCBDF9A5C419C1 ___0_s, int32_t ___1_radix, int32_t ___2_flags, int32_t* ___3_currPos, const RuntimeMethod* method) 
